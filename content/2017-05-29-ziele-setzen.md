@@ -3,7 +3,7 @@ layout: post
 Title: Ziele setzen
 email: miron@street.yoga
 author_email: miron@street.yoga
-date: '2017-05-29 19:51:12 +0200'
+Date: '2017-05-29 19:51:12 +0200'
 date_gmt: '2017-05-29 17:51:12 +0200'
 categories:
 - Allgemein

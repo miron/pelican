@@ -1,6 +1,6 @@
 ---
 Title: "Python in the Browser"
-date: 2022-06-21
+Date: 2022-06-21
 ---
 
 Python code embedded in html which samples random Austrian lottery numbers.  

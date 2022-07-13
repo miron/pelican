@@ -1,7 +1,5 @@
----
 Title: "Matplotlib Twin Axes"
-date: 2022-06-24
----
+Date: 2022-06-24
 
 Stil playing around with [PyScript](https://github.com/pyscript/pyscript/blob/main/docs/tutorials/getting-started.md).  
 Didn't understand what the fuzz was about, Python in the browser is everywere after all.    

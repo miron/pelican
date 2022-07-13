@@ -1,7 +1,7 @@
 ---
 published: true
 Title: Dekonstruktion des einarmigen Handstandes
-date: '2015-12-20 22:18:02 +0100'
+Date: '2015-12-20 22:18:02 +0100'
 date_gmt: '2015-12-20 21:18:02 +0100'
 categories:
 - Allgemein
