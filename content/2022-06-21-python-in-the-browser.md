@@ -1,7 +1,8 @@
----
 Title: "Python in the Browser"
 Date: 2022-06-21
----
+Category: Python
+Tags: pyscript
+
 
 Python code embedded in html which samples random Austrian lottery numbers.  
 Also prints the date and writes into labeled elements.  
