@@ -1,8 +1,0 @@
-Title: mysqlimport: Error: The table ''sometable'' is full, when using table: sometable
-Tags: mysql gentoo full
-
-If this error drives you mad on Gentoo, change this line in your /etc/mysql/my.cnf (if you use inoDB):
-
-innodb_data_file_path = ibdata1:10M:autoextend:max:128M
-
-and delete the :max:128M part or raise it up to your liking.

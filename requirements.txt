@@ -1,3 +1,4 @@
 pelican
 markdown
 pelican-gist
+webassets # some themes need it

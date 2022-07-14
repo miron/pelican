@@ -1,9 +1,7 @@
 Title: Ziele setzen
 Date: 2017-05-29 19:51:12
 Category: Fitness 
-email: miron@street.yoga
-author_email: miron@street.yoga
-Tags: entrepreneur calisthenics 
+Tags: entrepreneur, calisthenics 
 Slug: Eine Vision ist von Nöten 
 Author: streetyogi
 Summary: Setz dir kleine Ziele und nimm dir ein paar Minuten Zeit am Tag 

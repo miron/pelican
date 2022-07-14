@@ -1,4 +1,4 @@
-Title: Dekonstruktion des einarmigen Handstandes
+Title: Dekonstruktion Einarmiger Handstand
 Date: 2015-12-20 22:18:02
 Category: Fitness 
 Tags: handstand 
