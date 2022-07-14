@@ -16,11 +16,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('github', 'https://github.com/miron/'))
+LINKS = (('github', 'https://github.com/miron/'),)
 
 # Social widget
 SOCIAL = (('linkedin', 'https://www.linkedin.com/in/streetyogi/'),
-          ('instagram', 'https://www.instagram.com/street.yogi/'))
+          ('instagram', 'https://www.instagram.com/street.yogi/'),)
 
 DEFAULT_PAGINATION = False
 
