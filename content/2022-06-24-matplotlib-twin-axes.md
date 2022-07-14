@@ -3,7 +3,7 @@ Date: 2022-06-24
 Category: Python
 Tags: pyscript
 Slug: Matplotlib Twin Axes 
-Authors: streetyogi
+Author: streetyogi
 Summary: Howto create beautiful plots with pyscript and matplotlib
 
 
