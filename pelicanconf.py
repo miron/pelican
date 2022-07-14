@@ -21,8 +21,7 @@ LINKS = (('github', 'https://github.com/miron/'))
 # Social widget
 SOCIAL = (('linkedin', 'https://www.linkedin.com/in/streetyogi/'),
           ('instagram', 'https://www.instagram.com/street.yogi/'),
-          ('email', 'miron@street.yoga'),
-          ('twitter', 'twitter.com/cybermiron'))
+          ('email', 'miron@street.yoga'))
 
 DEFAULT_PAGINATION = False
 
