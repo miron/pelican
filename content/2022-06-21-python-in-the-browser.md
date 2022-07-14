@@ -2,6 +2,9 @@ Title: Python in the Browser
 Date: 2022-06-21
 Category: Python
 Tags: pyscript
+Slug: Pythonic Lotto Numbers 
+Author: streetyogi
+Summary: Sampled ranges inside the browser, how cool is that?
 
 
 Python code embedded in html which samples random Austrian lottery numbers.  
