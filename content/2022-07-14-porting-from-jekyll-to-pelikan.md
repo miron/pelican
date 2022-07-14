@@ -2,9 +2,9 @@ Title: From Jekyl to Pelican
 Date: 2022-06-24
 Category: Python
 Tags: ssg 
-Slug: Matplotlib Twin Axes 
+Slug: Byebye Ruby, Hello Python 
 Author: streetyogi
-Summary: Howto create beautiful plots with pyscript and matplotlib
+Summary: Some Python a day, keeps the Doctor away 
 
 A total revamp of my moddest homepage. I'm going from the github pages provided Jekyll static site generator to [Pelican](https://github.com/getpelican/pelican).  
 It is a lot of work, as I have to change metadata and formating of ancient articles I wrote over the years and decided to bring back.  
