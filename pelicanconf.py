@@ -1,10 +1,10 @@
 AUTHOR = 'streetyogi'
-SITENAME = 'Street Yoga'
-SITEURL = ''
+SITENAME = 'street.yoga'
+SITEURL = 'https://street.yoga'
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Berlin'
+TIMEZONE = 'Europe/Vienna'
 
 DEFAULT_LANG = 'English'
 
@@ -16,14 +16,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('github', 'https://github.com/miron/'))
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/streetyogi/'),
+          ('instagram', 'https://www.instagram.com/street.yogi/'),
+          ('email', 'miron@street.yoga'),
+          ('twitter', 'twitter.com/cybermiron'))
 
 DEFAULT_PAGINATION = False
 
