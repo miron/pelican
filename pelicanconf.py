@@ -16,8 +16,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('github', 'https://github.com/miron/'),
-          ('email', 'miron@street.yoga'))
+LINKS = (('github', 'https://github.com/miron/'))
 
 # Social widget
 SOCIAL = (('linkedin', 'https://www.linkedin.com/in/streetyogi/'),
