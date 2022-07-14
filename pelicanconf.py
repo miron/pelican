@@ -29,3 +29,5 @@ DEFAULT_PAGINATION = False
 PLUGINS = [
         'pelican_gist'
 ]
+CACHE_CONTENT = False
+

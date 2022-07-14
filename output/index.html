@@ -4,70 +4,39 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="generator" content="Pelican" />
-        <title>Street Yoga</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
+        <title>street.yoga</title>
+        <link rel="stylesheet" href="https://street.yoga/theme/css/main.css" />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="/">Street Yoga</a></h1>
+                <h1><a href="https://street.yoga/">street.yoga</a></h1>
                 <nav><ul>
-                    <li><a href="/category/misc.html">misc</a></li>
+                    <li><a href="https://street.yoga/category/cli.html">CLI</a></li>
+                    <li><a href="https://street.yoga/category/finance.html">Finance</a></li>
+                    <li><a href="https://street.yoga/category/fitness.html">Fitness</a></li>
+                    <li><a href="https://street.yoga/category/python.html">Python</a></li>
+                    <li><a href="https://street.yoga/category/yoga.html">Yoga</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/matplotlib-twin-axes.html">"Matplotlib Twin Axes"</a></h1>
+                    <h1 class="entry-title"><a href="https://street.yoga/Byebye Ruby, Hello Python.html">From Jekyl to Pelican</a></h1>
 <footer class="post-info">
         <abbr class="published" title="2022-06-24T00:00:00+02:00">
                 Published: Fri 24 June 2022
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="/author/streetyogi.html">streetyogi</a>
+                By                         <a class="url fn" href="https://street.yoga/author/streetyogi.html">streetyogi</a>
         </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info --><p>Stil playing around with <a href="https://github.com/pyscript/pyscript/blob/main/docs/tutorials/getting-started.md">PyScript</a>.<br>
-Didn't understand what the fuzz was about, Python in the browser is everywere after all.  <br>
-But the fact that you can embed it everywere is huge, no setting up servers, no search for sites that host your Python code, just a static website is enough :) <br>
-Additionally to almost all the modules from the <a href="https://docs.python.org/3/library/">Python Standard Library</a> you can use over hundred external modules from <a href="https://pyodide.org/en/stable/usage/packages-in-pyodide.html">Pyodide</a>.   <br>
-Below is shown a simple graph in <a href="https://matplotlib.org/">matplotlib</a> that compares treasury bond rates from 2 different years.</p>
-<p><html>
-    <head>
-      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    </head></p>
-<body>
-    <py-env>
-      - matplotlib
-    </py-env>
-
-    <py-script>
-        import matplotlib.pyplot as plt
-    labels = ['1 Mo','3 Mo','6 Mo','1 Yr','2 Yr','3 Yr','5 Yr','7 Yr','10 Yr','20 Yr','30 Yr']
-    july16_2007 =[4.75,4.98,5.08,5.01,4.89,4.89,4.95,4.99,5.05,5.21,5.14]
-    july16_2020 = [0.12,0.11,0.13,0.14,0.16,0.17,0.28,0.46,0.62,1.09,1.31]
-    fig, ax1 = plt.subplots()
-    ax1.plot(labels,july16_2007, color='blue', label="july16_2007")
-    ax1.set_ylabel("2007", color='blue')
-    ax1.spines['left'].set_color('blue')
-    ax1.spines['left'].set_linewidth(4)
-    for label in ax1.get_yticklabels():
-        label.set_color('blue')
-    ax2 = ax1.twinx()
-    ax2.plot(labels,july16_2020, color='red', label='july16_2020')
-    ax2.set_ylabel("2020", color='red')
-    ax2.spines['right'].set_color('red')
-    ax2.spines['right'].set_linewidth(4)
-    for label in ax2.get_yticklabels():
-        label.set_color('red')
-    plt
-    </py-script>
-  </body>
-<p></html></p>                </article>
+<p>In <a href="https://street.yoga/category/python.html">Python</a>.</p>
+<p>tags: <a href="https://street.yoga/tag/ssg.html">ssg</a> </p>
+</footer><!-- /.post-info --><p>A total revamp of my moddest homepage. I'm going from the github pages provided Jekyll static site generator to <a href="https://github.com/getpelican/pelican">Pelican</a>.<br>
+It is a lot of work, as I have to change metadata and formating of ancient articles I wrote over the years and decided to bring back.<br>
+Those date back to <a href="https://blogger.com">blogger</a>, <a href="https://wordpress.com">wordpress</a>, and even a short time of hosting at a former company I worked for. It didn't last forever but was free :) <br>
+Now I can use my Python skills to extend the blog, before it was Ruby, which I also liked but don't have the time anymore to learn both.   </p>                </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <h1>Other articles</h1>
@@ -76,8 +45,30 @@ Below is shown a simple graph in <a href="https://matplotlib.org/">matplotlib</a
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/python-in-the-browser.html" rel="bookmark"
-                           title="Permalink to "Python in the Browser"">"Python in the Browser"</a></h1>
+                    <h1><a href="https://street.yoga/Matplotlib Twin Axes.html" rel="bookmark"
+                           title="Permalink to Python on Static Websites">Python on Static Websites</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-06-24T00:00:00+02:00">
+                Published: Fri 24 June 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://street.yoga/author/streetyogi.html">streetyogi</a>
+        </address>
+<p>In <a href="https://street.yoga/category/python.html">Python</a>.</p>
+<p>tags: <a href="https://street.yoga/tag/pyscript.html">pyscript</a> </p>
+</footer><!-- /.post-info -->                <p>Howto create beautiful plots with pyscript and matplotlib</p>
+                <a class="readmore" href="https://street.yoga/Matplotlib Twin Axes.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://street.yoga/Pythonic Lotto Numbers.html" rel="bookmark"
+                           title="Permalink to Python in the Browser">Python in the Browser</a></h1>
                 </header>
 
                 <div class="entry-content">
@@ -87,36 +78,19 @@ Below is shown a simple graph in <a href="https://matplotlib.org/">matplotlib</a
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="/author/streetyogi.html">streetyogi</a>
+                By                         <a class="url fn" href="https://street.yoga/author/streetyogi.html">streetyogi</a>
         </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info -->                <p>Python code embedded in html which samples random Austrian lottery numbers.<br>
-Also prints the date and writes into labeled elements.<br>
-Bear in mind that this is just a simple static website :)<br>
-Uses <a href="https://github.com/pyscript/pyscript/blob/main/docs/tutorials/getting-started.md">PyScript</a>. Check it out for some examples.  </p>
-<p><html>
-    <head>
-      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    </head></p>
-<body>
-    <b><p>Today is <u><label id='today'></label></u></p></b>
-    <br>
-    <div id="lotto" class="alert alert-primary"></div>
-    <py-script>
-      import datetime as dt
-      from random import sample
-      pyscript …</py-script></body>
-                <a class="readmore" href="/python-in-the-browser.html">read more</a>
+<p>In <a href="https://street.yoga/category/python.html">Python</a>.</p>
+<p>tags: <a href="https://street.yoga/tag/pyscript.html">pyscript</a> </p>
+</footer><!-- /.post-info -->                <p>Sampled ranges inside the browser, how cool is that?</p>
+                <a class="readmore" href="https://street.yoga/Pythonic Lotto Numbers.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/introducing-streetyogacapital.html" rel="bookmark"
-                           title="Permalink to "Introducing streetyoga.capital"">"Introducing streetyoga.capital"</a></h1>
+                    <h1><a href="https://street.yoga/money makes the world go round.html" rel="bookmark"
+                           title="Permalink to Introducing streetyoga.capital">Introducing streetyoga.capital</a></h1>
                 </header>
 
                 <div class="entry-content">
@@ -126,19 +100,19 @@ Uses <a href="https://github.com/pyscript/pyscript/blob/main/docs/tutorials/gett
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="/author/streetyogi.html">streetyogi</a>
+                By                         <a class="url fn" href="https://street.yoga/author/streetyogi.html">streetyogi</a>
         </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info -->                <p>{% gist 037f9a271324524e775e Introducing_Streetyoga_Capital.md %}</p>
-                <a class="readmore" href="/introducing-streetyogacapital.html">read more</a>
+<p>In <a href="https://street.yoga/category/finance.html">Finance</a>.</p>
+<p>tags: <a href="https://street.yoga/tag/python-pandas.html">python pandas</a> </p>
+</footer><!-- /.post-info -->                <p>Financial independence is part of Yoga</p>
+                <a class="readmore" href="https://street.yoga/money makes the world go round.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/sentiment-of-the-past.html" rel="bookmark"
-                           title="Permalink to "Sentiment Of The Past"">"Sentiment Of The Past"</a></h1>
+                    <h1><a href="https://street.yoga/The struggles of life.html" rel="bookmark"
+                           title="Permalink to Sentiment Of The Past">Sentiment Of The Past</a></h1>
                 </header>
 
                 <div class="entry-content">
@@ -148,27 +122,19 @@ Uses <a href="https://github.com/pyscript/pyscript/blob/main/docs/tutorials/gett
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="/author/streetyogi.html">streetyogi</a>
+                By                         <a class="url fn" href="https://street.yoga/author/streetyogi.html">streetyogi</a>
         </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info -->                <div class="gist">
-    <script src='https://gist.github.com/037f9a271324524e775e.js?file=Sentiment_Of_The_Past.md'></script>
-    <noscript>
-        <pre><code>Today I watched myself from a time when I started my company. 
-
-[![Yogangster](http://i3.ytimg.com/vi/OsHTLZ4L53U/hqdefault.jpg)](http://www.youtube.com/watch?v=OsHTLZ4L53U&list=LLYm_qdRj_vEtyTQx2dkX6Tw)
-
-I was unexperienced but hungry and dedicated.  
-I miss those qualities. A Couple of months ago I was at …</code></pre></noscript></div>
-                <a class="readmore" href="/sentiment-of-the-past.html">read more</a>
+<p>In <a href="https://street.yoga/category/yoga.html">Yoga</a>.</p>
+<p>tags: <a href="https://street.yoga/tag/streetyoga.html">streetyoga</a> </p>
+</footer><!-- /.post-info -->                <p>Motivate your self by the sweetness of inexperience</p>
+                <a class="readmore" href="https://street.yoga/The struggles of life.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/physical-health-for-fitness.html" rel="bookmark"
-                           title="Permalink to "Physical Health For Fitness"">"Physical Health For Fitness"</a></h1>
+                    <h1><a href="https://street.yoga/Please do exercise.html" rel="bookmark"
+                           title="Permalink to Physical Health For Fitness">Physical Health For Fitness</a></h1>
                 </header>
 
                 <div class="entry-content">
@@ -178,19 +144,19 @@ I miss those qualities. A Couple of months ago I was at …</code></pre></noscri
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="/author/streetyogi.html">streetyogi</a>
+                By                         <a class="url fn" href="https://street.yoga/author/streetyogi.html">streetyogi</a>
         </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info -->                <p>{% gist 037f9a271324524e775e Physical_Health_For_Fitness.md  %}</p>
-                <a class="readmore" href="/physical-health-for-fitness.html">read more</a>
+<p>In <a href="https://street.yoga/category/fitness.html">Fitness</a>.</p>
+<p>tags: <a href="https://street.yoga/tag/yoga-calisthenics.html">yoga calisthenics</a> </p>
+</footer><!-- /.post-info -->                <p>Traning has to become second nature, a habbit</p>
+                <a class="readmore" href="https://street.yoga/Please do exercise.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/grepable-goodness.html" rel="bookmark"
-                           title="Permalink to "Grepable Goodness"">"Grepable Goodness"</a></h1>
+                    <h1><a href="https://street.yoga/All the oneliners you want.html" rel="bookmark"
+                           title="Permalink to Grepable Goodness">Grepable Goodness</a></h1>
                 </header>
 
                 <div class="entry-content">
@@ -200,19 +166,19 @@ I miss those qualities. A Couple of months ago I was at …</code></pre></noscri
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="/author/streetyogi.html">streetyogi</a>
+                By                         <a class="url fn" href="https://street.yoga/author/streetyogi.html">streetyogi</a>
         </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info -->                <p>{% gist 4997128 %}</p>
-                <a class="readmore" href="/grepable-goodness.html">read more</a>
+<p>In <a href="https://street.yoga/category/cli.html">CLI</a>.</p>
+<p>tags: <a href="https://street.yoga/tag/gcc-gh-git-powershell.html">gcc gh git powershell</a> </p>
+</footer><!-- /.post-info -->                <p>grep through it, hit enter, enjoy</p>
+                <a class="readmore" href="https://street.yoga/All the oneliners you want.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/intro.html" rel="bookmark"
-                           title="Permalink to "Intro"">"Intro"</a></h1>
+                    <h1><a href="https://street.yoga/My USP.html" rel="bookmark"
+                           title="Permalink to Intro">Intro</a></h1>
                 </header>
 
                 <div class="entry-content">
@@ -222,20 +188,18 @@ I miss those qualities. A Couple of months ago I was at …</code></pre></noscri
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="/author/streetyogi.html">streetyogi</a>
+                By                         <a class="url fn" href="https://street.yoga/author/streetyogi.html">streetyogi</a>
         </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info -->                <p>As entrepreneur I develop workout concepts for the health-conscious:
-* Short but periodic sequences for sedentary work, supervised and rewarded
-* Yoga, body weight exercises, calisthenics, gymnastics (street workout). High- and parallel bars in parks, resistance bands, gymnastic rings, suspension trainers and climbing rope for progressive training in nature for individuals or …</p>
-                <a class="readmore" href="/intro.html">read more</a>
+<p>In <a href="https://street.yoga/category/fitness.html">Fitness</a>.</p>
+<p>tags: <a href="https://street.yoga/tag/entrepreneur-calisthenics.html">entrepreneur calisthenics</a> </p>
+</footer><!-- /.post-info -->                <p>Never forget your USPs, everyone has something to contribute</p>
+                <a class="readmore" href="https://street.yoga/My USP.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/ziele-setzen.html" rel="bookmark"
+                    <h1><a href="https://street.yoga/Eine Vision ist von Nöten.html" rel="bookmark"
                            title="Permalink to Ziele setzen">Ziele setzen</a></h1>
                 </header>
 
@@ -246,20 +210,18 @@ I miss those qualities. A Couple of months ago I was at …</code></pre></noscri
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="/author/streetyogi.html">streetyogi</a>
+                By                         <a class="url fn" href="https://street.yoga/author/streetyogi.html">streetyogi</a>
         </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info -->                <h2>- Allgemein</h2>
-<p>Viele sportlich interessierte Menschen wissen entweder nicht wie sie sich Ziele setzten sollen oder es ist ihnen schlicht egal.<br />
-Ziele sind jedoch eine integrale Komponente eines effektiven Programmes, lenken sie dich doch in einem strukturiertem Trainingsplan. Nat&uuml;rlich kannst du auch ohne gesetzter Ziele stetig voranschreiten. Setzt du dir jedoch …</p>
-                <a class="readmore" href="/ziele-setzen.html">read more</a>
+<p>In <a href="https://street.yoga/category/fitness.html">Fitness</a>.</p>
+<p>tags: <a href="https://street.yoga/tag/entrepreneur-calisthenics.html">entrepreneur calisthenics</a> </p>
+</footer><!-- /.post-info -->                <p>Setz dir kleine Ziele und nimm dir ein paar Minuten Zeit am Tag</p>
+                <a class="readmore" href="https://street.yoga/Eine Vision ist von Nöten.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/dekonstruktion-des-einarmigen-handstandes.html" rel="bookmark"
+                    <h1><a href="https://street.yoga/Oben ist Unten.html" rel="bookmark"
                            title="Permalink to Dekonstruktion des einarmigen Handstandes">Dekonstruktion des einarmigen Handstandes</a></h1>
                 </header>
 
@@ -270,18 +232,12 @@ Ziele sind jedoch eine integrale Komponente eines effektiven Programmes, lenken 
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="/author/streetyogi.html">streetyogi</a>
+                By                         <a class="url fn" href="https://street.yoga/author/streetyogi.html">streetyogi</a>
         </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info -->                <ul>
-<li>Allgemein
-tags: []
-comments: []</li>
-</ul>
-<hr>
-<p>Bevor ich mein eigenes Tutorial poste, hier schon mal eine Interessante und ausf&uuml;hrliche Beschreibung f&uuml;r alle die den einarmigen Handstand lernen wollen und den n&ouml;tigen Willen dazu aufbringen, in englischer Sprache.&nbsp;<img class="alignnone size-full" src="/assets/OAHS-v02.jpg" alt="" />Awesome guest post on one-armed handstands from Ryan Hurst of @gmbfit. If you want to do …</p>
-                <a class="readmore" href="/dekonstruktion-des-einarmigen-handstandes.html">read more</a>
+<p>In <a href="https://street.yoga/category/fitness.html">Fitness</a>.</p>
+<p>tags: <a href="https://street.yoga/tag/handstand.html">handstand</a> </p>
+</footer><!-- /.post-info -->                <p>So nah drann, 8 Finger :)</p>
+                <a class="readmore" href="https://street.yoga/Oben ist Unten.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->
@@ -290,18 +246,15 @@ comments: []</li>
                 <div class="blogroll">
                         <h2>links</h2>
                         <ul>
-                            <li><a href="https://getpelican.com/">Pelican</a></li>
-                            <li><a href="https://www.python.org/">Python.org</a></li>
-                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
+                            <li><a href="https://github.com/miron/">github</a></li>
                         </ul>
                 </div><!-- /.blogroll -->
                 <div class="social">
                         <h2>social</h2>
                         <ul>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
+                            <li><a href="https://www.linkedin.com/in/streetyogi/">linkedin</a></li>
+                            <li><a href="https://www.instagram.com/street.yogi/">instagram</a></li>
                         </ul>
                 </div><!-- /.social -->
         </section><!-- /#extras -->

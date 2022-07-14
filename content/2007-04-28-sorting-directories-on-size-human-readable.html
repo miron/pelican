@@ -1,12 +1,6 @@
 Title: Sorting Directories On Size, Human Readable
-tags:
-- linux
-- terminal
-status: publish
-type: post
-published: true
-meta: {}
----
+Tags: linux terminal
+
 So far i have this:
 
 du -h --max-depth=1 | grep '[0-9]K' | sort -n ; du -h --max-depth=1 | grep '[0-9]M' | sort -n | du -h --max-depth=1 | grep '[0-9]G' | sort -n
