@@ -1,5 +1,11 @@
-Title: "Matplotlib Twin Axes"
+Title: Python on Static Websites 
 Date: 2022-06-24
+Category: Python
+Tags: pyscript
+Slug: Matplotlib Twin Axes 
+Authors: streetyogi
+Summary: Howto create beautiful plots with pyscript and matplotlib
+
 
 Stil playing around with [PyScript](https://github.com/pyscript/pyscript/blob/main/docs/tutorials/getting-started.md).  
 Didn't understand what the fuzz was about, Python in the browser is everywere after all.    
