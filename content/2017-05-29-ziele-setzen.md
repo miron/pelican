@@ -1,5 +1,3 @@
----
-layout: post
 Title: Ziele setzen
 email: miron@street.yoga
 author_email: miron@street.yoga

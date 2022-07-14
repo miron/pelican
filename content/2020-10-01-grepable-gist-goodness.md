@@ -1,6 +1,4 @@
----
-Title: "Grepable Goodness"
+Title: Grepable Goodness
 Date: 2020-10-01
---- 
 
-{% gist 4997128 %}
+[gist:id=4997128]
