@@ -1,4 +1,4 @@
-Title: "Python in the Browser"
+Title: Python in the Browser
 Date: 2022-06-21
 Category: Python
 Tags: pyscript

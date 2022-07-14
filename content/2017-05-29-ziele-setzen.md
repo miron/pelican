@@ -1,11 +1,13 @@
 Title: Ziele setzen
+Date: 2017-05-29 19:51:12
+Category: Fitness 
 email: miron@street.yoga
 author_email: miron@street.yoga
-Date: '2017-05-29 19:51:12 +0200'
-date_gmt: '2017-05-29 17:51:12 +0200'
-categories:
-- Allgemein
----
+Tags: entrepreneur calisthenics 
+Slug: Eine Vision ist von Nöten 
+Author: streetyogi
+Summary: Setz dir kleine Ziele und nimm dir ein paar Minuten Zeit am Tag 
+
 <p>Viele sportlich interessierte Menschen wissen entweder nicht wie sie sich Ziele setzten sollen oder es ist ihnen schlicht egal.<br />
 Ziele sind jedoch eine integrale Komponente eines effektiven Programmes, lenken sie dich doch in einem strukturiertem Trainingsplan. Nat&uuml;rlich kannst du auch ohne gesetzter Ziele stetig voranschreiten. Setzt du dir jedoch qualitativ hochwertige Ziele, wird deine Leistung in die H&ouml;he schie&szlig;en.</p>
 <blockquote class="alignment"><p>Ziele werden allgemein als "Das Ende in dessen Richtung die M&uuml;he gelenkt wird" bezeichnet</p></blockquote>
