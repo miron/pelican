@@ -1,14 +1,26 @@
-make clean
-pelican content -s pelicanconf.py -t ../pelican-themes/your-theme
+### Deployed to netlify.com
+
+Check it out at [street.yoga](www.street.yoga)  
+
+Settings:
+
+Build command: pelican -t Flex  
+Publisch directory: blog  
+PYTHON_VERSION: 3.8  
+
+
+### Build localy: 
+
+pelican content -s pelicanconf.py -t Flex\;   
 pelican --listen
 
-themes:
+### Themes
 
-Flex <-- Favorite
-Nuja
-pelican-b-side
-pelican-cait
-taman
+Flex <-- Favorite  
+Nuja  
+pelican-b-side  
+pelican-cait  
+taman  
 	
 	
 
