@@ -83,7 +83,7 @@ COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 3
 
 DISQUS_SITENAME = "flex-pelican"
-ADD_THIS_ID = "ra-55adbb025d4f7e55"
+ADD_THIS_ID = "ra-62d18ff205e38df4"
 
 STATIC_PATHS = ["images"]
 
