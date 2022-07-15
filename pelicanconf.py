@@ -1,7 +1,7 @@
 from datetime import datetime
 
 AUTHOR = "streetyogi"
-SITEURL = "https://www.street.yoga"
+SITEURL = "https://street.yoga"
 # SITEURL = "http://127.0.0.1:8000"
 SITENAME = "street.yoga"
 SITETITLE = "street.yoga"
