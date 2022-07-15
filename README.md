@@ -5,7 +5,7 @@ Check it out at [street.yoga](https://www.street.yoga)
 Settings:
 
 Build command: pelican -t Flex  
-Publisch directory: blog  
+Publish directory: blog  
 PYTHON_VERSION: 3.8  
 
 
