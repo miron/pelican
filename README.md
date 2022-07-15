@@ -1,6 +1,6 @@
 ### Deployed to netlify.com
 
-Check it out at [street.yoga](www.street.yoga)  
+Check it out at [street.yoga](https://www.street.yoga)  
 
 Settings:
 
