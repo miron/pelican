@@ -1,6 +1,6 @@
 Title: welcome
 Date: 2019-10-15
-Summary: Welcom of the site
+Summary: Welcome of the site
 
 ## Street Yoga Grüßt Euch!
 
