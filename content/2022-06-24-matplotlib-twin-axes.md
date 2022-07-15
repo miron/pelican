@@ -2,7 +2,7 @@ Title: Python on Static Websites
 Date: 2022-06-24
 Category: Python
 Tags: pyscript
-Slug: Matplotlib Twin Axes 
+Slug: matplotlib-twin-axes 
 Author: streetyogi
 Summary: Howto create beautiful plots with pyscript and matplotlib
 
