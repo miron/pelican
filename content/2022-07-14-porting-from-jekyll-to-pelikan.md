@@ -2,7 +2,7 @@ Title: From Jekyl to Pelican
 Date: 2022-06-24
 Category: Python
 Tags: ssg 
-Slug: Byebye Ruby, Hello Python 
+Slug: byebye-ruby-hello-python 
 Author: streetyogi
 Summary: Some Python a day, keeps the Doctor away 
 
