@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>street.yoga - Finance</title><link href="http://127.0.0.1:8000/" rel="alternate"></link><link href="http://127.0.0.1:8000/feeds/finance.atom.xml" rel="self"></link><id>http://127.0.0.1:8000/</id><updated>2022-04-24T00:00:00+02:00</updated><subtitle>Yoga &amp; Machines</subtitle><entry><title>Introducing streetyoga.capital</title><link href="http://127.0.0.1:8000/money%20makes%20the%20world%20go%20round.html" rel="alternate"></link><published>2022-04-24T00:00:00+02:00</published><updated>2022-04-24T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2022-04-24:/money makes the world go round.html</id><summary type="html">&lt;p&gt;Financial independence is part of Yoga&lt;/p&gt;</summary><content type="html">&lt;div class="gist"&gt;
+    &lt;script src='https://gist.github.com/037f9a271324524e775e.js?file=Introducing_Streetyoga_Capital.md'&gt;&lt;/script&gt;
+    &lt;noscript&gt;
+        &lt;pre&gt;&lt;code&gt;As time passes by, street.yoga as a company has evolved, and so did I. Yoga will allways be my number one priority, that will never change.  
+
+But what is yoga exactly, or rather yoga darshana? It is the union between mind, body and spirit. I was focused on the spirit and the body,
+but neglected my mind.  
+I'm still living in the market, allways will. I don't see myself moving to the himalayas and renounce the world, 
+renounce all thought and renounce my curiosity.  
+
+One of my passions preceding my yoga passion are computers and programming, and as much as I tried to renounce this passion to focus solely 
+on the physical and spiritual aspect of yoga, and tried to still my mind, it didn't work. And why should it? Computers are part of my life,
+and every yogi on the internet. And as a yogi you are either willing to renounce that world or you are not. I am not. So today I started a 
+new project on github which will satiate my thirst for programming in the Python language.
+
+I will post on my site about computers and yoga interchangeabely.   
+The new project I started concerns itself with algorithmic trading on different cryptocurrency exchanges and is located 
+at [streetyoga.capital](https://streetyoga.github.io/streetyoga.capital/).  
+I'm still open for my yoga business although I always struggled to take money for my services, it never felt right, it never will.
+
+Namaste my dear yogis, and never forget to live by the eight limbs of yoga, even when participating in the market.&lt;/code&gt;&lt;/pre&gt;
+    &lt;/noscript&gt;
+&lt;/div&gt;</content><category term="Finance"></category><category term="python"></category><category term="pandas"></category></entry></feed>

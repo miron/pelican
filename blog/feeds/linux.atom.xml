@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>street.yoga - Linux</title><link href="http://127.0.0.1:8000/" rel="alternate"></link><link href="http://127.0.0.1:8000/feeds/linux.atom.xml" rel="self"></link><id>http://127.0.0.1:8000/</id><updated>2011-06-13T00:00:00+02:00</updated><subtitle>Yoga &amp; Machines</subtitle><entry><title>list only directories</title><link href="http://127.0.0.1:8000/list-only-directories.html" rel="alternate"></link><published>2011-06-13T00:00:00+02:00</published><updated>2011-06-13T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2011-06-13:/list-only-directories.html</id><summary type="html">&lt;p&gt;Find all those files&lt;/p&gt;</summary><content type="html">&lt;p&gt;This lists visible and hidden ones.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;ls -d */ .*/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category></entry><entry><title>rsync over ssh without rsync --daemon</title><link href="http://127.0.0.1:8000/rsync-over-ssh-without-rsync-daemon.html" rel="alternate"></link><published>2011-06-10T00:00:00+02:00</published><updated>2011-06-10T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2011-06-10:/rsync-over-ssh-without-rsync-daemon.html</id><summary type="html">&lt;p&gt;If you want to rsync without a daemon&lt;/p&gt;</summary><content type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;rsync -e ssh -l somefile someuser@someip:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category></entry><entry><title>No Sound in Java-apps in Firefox</title><link href="http://127.0.0.1:8000/no-sound-in-java-apps-in-firefox.html" rel="alternate"></link><published>2008-07-26T00:00:00+02:00</published><updated>2008-07-26T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2008-07-26:/no-sound-in-java-apps-in-firefox.html</id><summary type="html">&lt;p&gt;OSS Sequencer API&lt;/p&gt;</summary><content type="html">&lt;p&gt;For a long time i had not sound in Firefox on Sites using Java (hobnox.com, runescape.com)&lt;/p&gt;
+&lt;p&gt;I tested the Javasound localy withe the JavaSoundDemo:&lt;/p&gt;
+&lt;p&gt;http://java.sun.com/products/java-media/sound/samples/JavaSoundDemo/&lt;/p&gt;
+&lt;p&gt;and i worked flawlessly.&lt;/p&gt;
+&lt;p&gt;I had to activate the OSS Sequencer API in the Kernel under:&lt;/p&gt;
+&lt;p&gt;Device Drivers/Sound/Advanced Linux Sound Architecture/&lt;/p&gt;
+&lt;p&gt;So even modern sites still use and need the OSS API, good to know :)&lt;/p&gt;</content><category term="Linux"></category><category term="alsa"></category><category term="api"></category><category term="gentoo"></category><category term="java"></category><category term="linux"></category><category term="oss"></category><category term="sound"></category></entry><entry><title>Searching ebuilds with useflag in Gentoo</title><link href="http://127.0.0.1:8000/searching-ebuilds-with-useflag-in-gentoo.html" rel="alternate"></link><published>2008-07-20T00:00:00+02:00</published><updated>2008-07-20T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2008-07-20:/searching-ebuilds-with-useflag-in-gentoo.html</id><summary type="html">&lt;p&gt;I wonder how that came onto my computer&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ever wondered how to find all those programms in portage you didn't install, which have a specific useflag you were interested in ?&lt;/p&gt;
+&lt;p&gt;Well, eix is capable of this useful feature, just search like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;eix -U someuseflag
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Linux"></category><category term="configuration"></category><category term="eix"></category><category term="gentoo"></category><category term="linux"></category><category term="terminal"></category><category term="useflag"></category></entry><entry><title>Compare Directories with diff</title><link href="http://127.0.0.1:8000/compare-directories-with-diff.html" rel="alternate"></link><published>2008-05-15T00:00:00+02:00</published><updated>2008-05-15T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2008-05-15:/compare-directories-with-diff.html</id><summary type="html">&lt;p&gt;So many files, deduplicate&lt;/p&gt;</summary><content type="html">&lt;p&gt;Its easier than i thought, just type:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;diff -rq Dir1 Dir2&amp;lt;/code&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;-r stands for rekursive&lt;/p&gt;
+&lt;p&gt;-q output only wether content differ&lt;/p&gt;</content><category term="Linux"></category><category term="compare"></category><category term="diff"></category><category term="directories"></category><category term="linux"></category><category term="terminal"></category></entry><entry><title>Mounting ext4-filesystem with newer Kernels</title><link href="http://127.0.0.1:8000/mounting-ext4-filesystem-with-newer-kernels.html" rel="alternate"></link><published>2008-05-14T00:00:00+02:00</published><updated>2008-05-14T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2008-05-14:/mounting-ext4-filesystem-with-newer-kernels.html</id><summary type="html">&lt;p&gt;flags for development code&lt;/p&gt;</summary><content type="html">&lt;p&gt;Trying to mount my ext4 partiton with a 2.6.25 kernel i get this errormessage:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;EXT4-fs: hda3: not marked OK to use with test code.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;There is a new special flag you have to set to mount development code, so do:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;[&lt;/span&gt;root&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="c1"&gt;# debugfs -w /dev/hda3&lt;/span&gt;
+debugfs &lt;span class="m"&gt;1&lt;/span&gt;.40.9 &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;27&lt;/span&gt;-Apr-2008&lt;span class="o"&gt;)&lt;/span&gt;
+debugfs:  set_super_value s_flags &lt;span class="m"&gt;4&lt;/span&gt;
+debugfs:  quit
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;More info, debugfs, ext4dev, &lt;a href="https://fedoraproject.org/wiki/FedoraExt4"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="Linux"></category><category term="debugfs"></category><category term="ext4"></category><category term="linux"></category><category term="mount"></category></entry><entry><title>Syncing your portage tree and overlays with eix</title><link href="http://127.0.0.1:8000/syncing-your-portage-tree-and-overlays-with-eix.html" rel="alternate"></link><published>2007-12-26T00:00:00+01:00</published><updated>2007-12-26T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-12-26:/syncing-your-portage-tree-and-overlays-with-eix.html</id><summary type="html">&lt;p&gt;Be more productive with oneliners&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you want to sync your portage tree and your layman-overlays with one command, you can use&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;eix sync
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;for that.&lt;/p&gt;
+&lt;p&gt;All you have to do is to create&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;/etc/eix-sync.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;and place a
+    :::bash
+    *&lt;/p&gt;
+&lt;p&gt;in it.&lt;/p&gt;
+&lt;p&gt;If you want to have a cronjob  for that create for example a file named /etc/cron.weekly/eix.cron&lt;/p&gt;
+&lt;p&gt;and put something like&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="ch"&gt;#!/bin/sh&lt;/span&gt;
+/usr/bin/eix-sync
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;in it.&lt;/p&gt;
+&lt;p&gt;You can then delete all other cronjobs like emerge --sync and layman -S&lt;/p&gt;
+&lt;p&gt;As usual man eix has all the info you need.&lt;/p&gt;</content><category term="Linux"></category><category term="configuration"></category><category term="gentoo"></category><category term="linux"></category></entry><entry><title>Java nada when libX11 compiled with xcb useflag</title><link href="http://127.0.0.1:8000/java-nada-when-libx11-compiled-with-xcb-useflag.html" rel="alternate"></link><published>2007-12-22T00:00:00+01:00</published><updated>2007-12-22T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-12-22:/java-nada-when-libx11-compiled-with-xcb-useflag.html</id><summary type="html">&lt;p&gt;The fun of compiling code&lt;/p&gt;</summary><content type="html">&lt;p&gt;Put&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;LIBXCB_ALLOW_SLOPPY_LOCK&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;in your /etc/env.d/99local&lt;/p&gt;</content><category term="Linux"></category></entry><entry><title>Enable Antispoofing With Iptables</title><link href="http://127.0.0.1:8000/enable-antispoofing-with-iptables.html" rel="alternate"></link><published>2007-10-01T00:00:00+02:00</published><updated>2007-10-01T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-10-01:/enable-antispoofing-with-iptables.html</id><summary type="html">&lt;p&gt;Write to that proc filesystem&lt;/p&gt;</summary><content type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;for&lt;/span&gt; i &lt;span class="k"&gt;in&lt;/span&gt; /proc/sys/net/ipv4/*/rp_filter
+&lt;span class="k"&gt;do&lt;/span&gt;
+   &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt; &amp;gt; &lt;span class="nv"&gt;$f&lt;/span&gt;
+&lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Or simply&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt; &amp;gt; /proc/sys/net/ipv4/*/rp_filter
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;(depends on your shell)&lt;/p&gt;
+&lt;p&gt;This compares the source adress against the routing table&lt;/p&gt;
+&lt;p&gt;More info about the ~50  options you can find at /usr/src/linux/Documentation/networking/ip-sysctl.txt&lt;/p&gt;</content><category term="Linux"></category><category term="networking"></category></entry><entry><title>Redirect And Save Tcpdump Output To Other Host</title><link href="http://127.0.0.1:8000/redirect-and-save-tcpdump-output-to-other-host.html" rel="alternate"></link><published>2007-09-28T00:00:00+02:00</published><updated>2007-09-28T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-09-28:/redirect-and-save-tcpdump-output-to-other-host.html</id><summary type="html">&lt;p&gt;This are the times&lt;/p&gt;</summary><content type="html">&lt;p&gt;So you have one of those fancy Linksys-Routers with OpenWrt on it and want to save the output of tcpdump. As the local storage is limited and OpenWrt does not support a monitoring-port you have to redirect the output to save on another host.&lt;/p&gt;
+&lt;p&gt;But first lets enlarge onto that monitoring-port.
+For what i know DD-Wrt's iptables supports by default the ROUTE target with the &lt;code&gt;--tee&lt;/code&gt; parameter:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;--tee
+Make a copy of the packet, and route that copy to the given destination. 
+For the original, uncopied packet, behave like a non-terminating target
+and &lt;span class="k"&gt;continue&lt;/span&gt; traversing the rules.
+Not valid &lt;span class="k"&gt;in&lt;/span&gt; combination with --iif or --continue
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I tried to patch OpenWrt's iptables with the ROUTE target, but no luck as this extensions seems not to be maintained anymore.&lt;/p&gt;
+&lt;p&gt;As DD-Wrt is OpenWrt-based, i supose i only need the ipkg from them and can install it on my router, have to investigate that further.&lt;/p&gt;
+&lt;p&gt;Far less complicated is to start tcpdump on your router and redirect the output to your PC like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;tcpdump -i any ! host &lt;span class="m"&gt;192&lt;/span&gt;.168.1.2 -s &lt;span class="m"&gt;0&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; ssh someone@192.168.1.2 &lt;span class="s2"&gt;&amp;quot;cat &amp;gt; dump.txt&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Change tcpdump filters to your liking.&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="networking"></category><category term="terminal"></category></entry><entry><title>Rename Or Copy Files Not In Current Directory</title><link href="http://127.0.0.1:8000/rename-or-copy-files-not-in-current-directory.html" rel="alternate"></link><published>2007-09-13T00:00:00+02:00</published><updated>2007-09-13T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-09-13:/rename-or-copy-files-not-in-current-directory.html</id><summary type="html">&lt;p&gt;Autocompletion in zsh is the best&lt;/p&gt;</summary><content type="html">&lt;p&gt;I often catched myself renaming a file in some other directory like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;mv some/dir/some/file some/dir/somefile_renamed
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;But there is an easier way:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;mv some/dir/some/&lt;span class="o"&gt;{&lt;/span&gt;file,file_renamed&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This also works for copying:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cp /etc/mail/&lt;span class="o"&gt;{&lt;/span&gt;sendmail.cf,sendmail.cf.orig&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Or vimdiff:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;vimdiff /etc/mail/&lt;span class="o"&gt;{&lt;/span&gt;sendmail.cf,sendmail.cf.orig&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And thats why I love zsh so much, you can even tabcomplete after the {, try that in bash f.e. :)
+Be creative, I'm sure there are many useful fields of application.&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category></entry><entry><title>Advanced Command-Line Editing</title><link href="http://127.0.0.1:8000/advanced-command-line-editing.html" rel="alternate"></link><published>2007-09-11T00:00:00+02:00</published><updated>2007-09-11T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-09-11:/advanced-command-line-editing.html</id><summary type="html">&lt;p&gt;Lets celebrate my LPIC-2&lt;/p&gt;</summary><content type="html">&lt;p&gt;Today I passed my 117-201 exam and now I play a little bit with the Vi key bindings on Zsh.&lt;br&gt;
+In Bash you can set them with set -o vi, and in Zsh you can set them additionally with setopt vi.  &lt;/p&gt;
+&lt;p&gt;I want to get to the point of command line editing above the basic&lt;br&gt;
+tab complete and history browsing, searching and minor corrections.&lt;br&gt;
+So I start witch a little example: &lt;/p&gt;
+&lt;p&gt;I want to rename a file with the following naming scheme:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;someID_filename.txt to filename.txt&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;After my fulminant efficient Vim key combination for table editing, &lt;a href="http://127.0.0.1:8000/vim-contest-shortest-solution-postgresql-tab-to-array.html"&gt;Efficient table-editing&lt;/a&gt; &lt;br&gt;
+I challenge everybody to find the shortest key combination to fulfill this task.&lt;/p&gt;
+&lt;p&gt;I start with an self-deprating solution:
+First I type:
+&lt;code&gt;mv someID_filname.txt&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Now the count begins:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;Space&amp;gt;&amp;lt;Esc&amp;gt;T_y$$p&amp;lt;Enter&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This makes a total of 9 characters which i have to store in my brain. As I want
+to have my head free for more complicated tasks, of course this has to
+be optimized dramatically :)  &lt;/p&gt;
+&lt;p&gt;Have fun.  &lt;/p&gt;</content><category term="Linux"></category><category term="terminal"></category><category term="vim"></category></entry><entry><title>GoogleEarth Freezes With Actual Ati-Drivers (No More)</title><link href="http://127.0.0.1:8000/googleearth-freezes-with-actual-ati-drivers-no-more.html" rel="alternate"></link><published>2007-08-30T00:00:00+02:00</published><updated>2007-08-30T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-08-30:/googleearth-freezes-with-actual-ati-drivers-no-more.html</id><summary type="html">&lt;p&gt;Do you like shared objects?&lt;/p&gt;</summary><content type="html">&lt;p&gt;There is a library missing, libGL.so.1 see  &lt;a href="https://web.archive.org/web/20160201121439/http://n01getsout.com/blog/2006/11/26/google-earth-for-linux-freezing-with-ati/"&gt;googleearth antifreeze&lt;/a&gt; site for instructions.&lt;/p&gt;
+&lt;p&gt;Edit: Everything works fine for me now with latest googleearth (4.2.0198.2451 (beta)), no need to copy this library anymore as googleearth starts then in software-emulation mode. &lt;/p&gt;</content><category term="Linux"></category><category term="google"></category><category term="linux"></category></entry><entry><title>Move files beginning with an hyphen</title><link href="http://127.0.0.1:8000/move-files-beginning-with-an-hyphen.html" rel="alternate"></link><published>2007-08-19T00:00:00+02:00</published><updated>2007-08-19T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-08-19:/move-files-beginning-with-an-hyphen.html</id><summary type="html">&lt;p&gt;Organization is important&lt;/p&gt;</summary><content type="html">&lt;p&gt;This one is easy, as escaping does not work you have to prefix the filename with two hyphens like so:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mv -- -some_silly_filename_with_an_hyphen_before_it&lt;/code&gt;&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="hyphen"></category><category term="move"></category><category term="mv"></category></entry><entry><title>Cannot connect with ipw2000 module</title><link href="http://127.0.0.1:8000/cannot-connect-with-ipw2000-module.html" rel="alternate"></link><published>2007-08-11T00:00:00+02:00</published><updated>2007-08-11T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-08-11:/cannot-connect-with-ipw2000-module.html</id><summary type="html">&lt;p&gt;Module load error&lt;/p&gt;</summary><content type="html">&lt;p&gt;Building a new kernel i couldn't connect annymore to my wlan-router, allthough i had the same configuration as my other kernel. Whell, almost, under Cryptographic options i build the  AES cipher algorithms  as module therefore  the  ieee80211_crypt_ccmp module could not find  it , though i made a depmod. It gave me the errormessage:&lt;/p&gt;
+&lt;p&gt;ieee80211_crypt_ccmp: could not allocate crypto API aes&lt;/p&gt;
+&lt;p&gt;So apparently you have to build this into the kernel for wlan&lt;/p&gt;</content><category term="Linux"></category><category term="hardware"></category><category term="linux"></category><category term="ipw2000"></category><category term="module"></category><category term="crypto"></category><category term="wlan"></category></entry><entry><title>gcc-config error: Could not run/locate "gcc"</title><link href="http://127.0.0.1:8000/gcc-config-error-could-not-runlocate-gcc.html" rel="alternate"></link><published>2007-07-23T00:00:00+02:00</published><updated>2007-07-23T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-07-23:/gcc-config-error-could-not-runlocate-gcc.html</id><summary type="html">&lt;p&gt;gentoo is fun&lt;/p&gt;</summary><content type="html">&lt;p&gt;Whenever switching gcc-versions, for example from 4.1 to 4.2 dont forget to do a:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gcc-config i686-pc-linux-gnu-4.2.0&lt;/code&gt;&lt;/p&gt;</content><category term="Linux"></category><category term="code"></category><category term="linux"></category><category term="gcc"></category><category term="error"></category><category term="gcc-config"></category><category term="gentoo"></category></entry><entry><title>mysqlimport: Error: table full when using table</title><link href="http://127.0.0.1:8000/mysqlimport-error-table-full-when-using-table.html" rel="alternate"></link><published>2007-07-06T00:00:00+02:00</published><updated>2007-07-06T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-07-06:/mysqlimport-error-table-full-when-using-table.html</id><summary type="html">&lt;p&gt;full tables aren't fun&lt;/p&gt;</summary><content type="html">&lt;p&gt;If this error drives you mad on Gentoo, change this line in your /etc/mysql/my.cnf (if you use inoDB):&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;innodb_data_file_path = ibdata1:10M:autoextend:max:128M&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;and delete the :max:128M part or raise it up to your liking.&lt;/p&gt;</content><category term="Linux"></category><category term="mysql gentoo full"></category></entry><entry><title>zsh and the stat command</title><link href="http://127.0.0.1:8000/zsh-and-the-stat-command.html" rel="alternate"></link><published>2007-06-22T00:00:00+02:00</published><updated>2007-06-22T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-06-22:/zsh-and-the-stat-command.html</id><content type="html">&lt;p&gt;It works a litte bit different than in bash:&lt;/p&gt;
+&lt;p&gt;stat -g some_file&lt;/p&gt;
+&lt;p&gt;Shows the times in GMT&lt;/p&gt;
+&lt;p&gt;stat -s some_file&lt;/p&gt;
+&lt;p&gt;Shows the times in local time zone&lt;/p&gt;
+&lt;p&gt;More about zsh's stat you can find with man zshmodules under zsh/stat&lt;/p&gt;</content><category term="Linux"></category><category term="terminal"></category><category term="zsh"></category><category term="stat"></category><category term="time"></category></entry><entry><title>Skype 1.4 on Gentoo: Database Error</title><link href="http://127.0.0.1:8000/skype-14-on-gentoo-database-error.html" rel="alternate"></link><published>2007-06-18T00:00:00+02:00</published><updated>2007-06-18T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-06-18:/skype-14-on-gentoo-database-error.html</id><summary type="html">&lt;p&gt;Skype always was a little too comunicative&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is because skype does not get shut down when i close it, i have to kill it manually too. (I use dwm and have no try icon)&lt;/p&gt;
+&lt;p&gt;Another Error was dbus-related, i had to start /etc/init.d/dbus.&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="skype"></category><category term="error"></category><category term="dbus"></category></entry><entry><title>Howto set ATI Powerplay</title><link href="http://127.0.0.1:8000/howto-set-ati-powerplay.html" rel="alternate"></link><published>2007-06-14T00:00:00+02:00</published><updated>2007-06-14T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-06-14:/howto-set-ati-powerplay.html</id><summary type="html">&lt;p&gt;More Power, urgh urgh&lt;/p&gt;</summary><content type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;aticonfig --set-powerstate&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;     &lt;span class="c1"&gt;# powerstate=3 to get full power again&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For a listing of modes&lt;/p&gt;</content><category term="Linux"></category><category term="hardware"></category><category term="ati"></category><category term="power"></category><category term="save"></category></entry><entry><title>Extract File From Tar-Archive Without Specifying Directory</title><link href="http://127.0.0.1:8000/extract-file-from-tar-archive-without-specifying-directory.html" rel="alternate"></link><published>2007-06-11T00:00:00+02:00</published><updated>2007-06-11T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-06-11:/extract-file-from-tar-archive-without-specifying-directory.html</id><summary type="html">&lt;p&gt;Storage is expensive&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code&gt;tar xvf some.tgz  --no-anchored some.txt&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;When some.txt is in /some/dir/some.txt, some.txt gets extracted right there.&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="tar"></category><category term="relative"></category></entry><entry><title>Grep only through hidden files</title><link href="http://127.0.0.1:8000/grep-only-through-hidden-files.html" rel="alternate"></link><published>2007-06-10T00:00:00+02:00</published><updated>2007-06-10T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-06-10:/grep-only-through-hidden-files.html</id><summary type="html">&lt;p&gt;More data, I need more!&lt;/p&gt;</summary><content type="html">&lt;p&gt;grep &amp;lt;pattern&amp;gt; .*&lt;/p&gt;
+&lt;p&gt;This greps through all dotfiles in the current directory&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="grep"></category><category term="dotfiles"></category><category term="hidden"></category></entry><entry><title>dwm shows white background with java</title><link href="http://127.0.0.1:8000/dwm-shows-white-background-with-java.html" rel="alternate"></link><published>2007-06-03T00:00:00+02:00</published><updated>2007-06-03T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-06-03:/dwm-shows-white-background-with-java.html</id><summary type="html">&lt;p&gt;dwm, it whips the memorys ass&lt;/p&gt;</summary><content type="html">&lt;p&gt;I was for a search for a wm only for javaapps because of this (fvwm-crystal is very nice btw. but only with the mouse, although they claim you can operate it only with the keyboard, for me it was poore brain-damage), but there is a simple solution for this:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;export AWT_TOOLKIT=MToolkit&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Never ever another WindowManager again :)&lt;/p&gt;</content><category term="Linux"></category><category term="java"></category><category term="terminal"></category><category term="dwm"></category><category term="background"></category></entry><entry><title>Create directories using brace expansion</title><link href="http://127.0.0.1:8000/create-directories-using-brace-expansion.html" rel="alternate"></link><published>2007-05-30T00:00:00+02:00</published><updated>2007-05-30T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-05-30:/create-directories-using-brace-expansion.html</id><summary type="html">&lt;p&gt;the hidden mysteries of the braces&lt;/p&gt;</summary><content type="html">&lt;p&gt;Say you wan't to create several directories, for example rc0.d to rc6.d (vmware needs them for example to install)&lt;/p&gt;
+&lt;p&gt;you type:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mkdir rc{0..6}.d&lt;/code&gt;&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="mkdir"></category><category term="expansion"></category><category term="brace"></category></entry><entry><title>Vmware-Workstation 6.0 On Gentoo</title><link href="http://127.0.0.1:8000/vmware-workstation-60-on-gentoo.html" rel="alternate"></link><published>2007-05-30T00:00:00+02:00</published><updated>2007-05-30T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-05-30:/vmware-workstation-60-on-gentoo.html</id><summary type="html">&lt;p&gt;If it doesn't work, just write an ebuild&lt;/p&gt;</summary><content type="html">&lt;p&gt;Today i installed VMware-workstation-.0.0.45731. if you get this error:&lt;/p&gt;
+&lt;p&gt;/opt/vmware/workstation/lib/vmware/bin/vmware: symbol lookup error: /opt/vmware/workstation/lib/vmware/lib/libvmwareui.so.0/libvmwareui.so.0: undefined symbol: _ZN3Gtk6Widget14get_accessibleEv&lt;/p&gt;
+&lt;p&gt;start it like this:&lt;/p&gt;
+&lt;p&gt;VMWARE_USE_SHIPPED_GTK=yes vmware&lt;/p&gt;
+&lt;p&gt;btw, the vmwareinstaller needs the runleveldirectories rc0.d-rc6.d, just create symlinks to the runlevels of gentoo,&lt;/p&gt;
+&lt;p&gt;there is also an &lt;a href="http://bugs.gentoo.org/show_bug.cgi?id=177876" title="vmware ebuild" target="_blank"&gt;ebuild&lt;/a&gt; on bugs.gentoo.org, somebody pointed out to get it working after some modifications to i386.&lt;/p&gt;
+&lt;p&gt;Edit: vmware-workstation-6 is allready in portage, just unmask it and also unmask latest  vmware-modules.&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="virtualisation"></category><category term="error"></category><category term="gentoo"></category><category term="vmware"></category></entry><entry><title>Strange zsh proposals for correction</title><link href="http://127.0.0.1:8000/strange-zsh-proposals-for-correction.html" rel="alternate"></link><published>2007-05-29T00:00:00+02:00</published><updated>2007-05-29T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-05-29:/strange-zsh-proposals-for-correction.html</id><summary type="html">&lt;p&gt;sometimes you have to bend the machine to your will&lt;/p&gt;</summary><content type="html">&lt;p&gt;I often got strange proposals from zsh command correction (setopt correctall), for example:
+zsh: correct ’sudo’ to ‘_sudo’ [nyae]?&lt;/p&gt;
+&lt;p&gt;A rehash -f helped&lt;/p&gt;
+&lt;p&gt;Also have to look at the HASH_LIST_ALL option some time.&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="strange"></category><category term="correction"></category><category term="zsh"></category></entry><entry><title>Howto create md5 password-hashes for amule</title><link href="http://127.0.0.1:8000/howto-create-md5-password-hashes-for-amule.html" rel="alternate"></link><published>2007-05-23T00:00:00+02:00</published><updated>2007-05-23T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-05-23:/howto-create-md5-password-hashes-for-amule.html</id><summary type="html">&lt;p&gt;Safety first&lt;/p&gt;</summary><content type="html">&lt;p&gt;to connect to your amuled you need to save your password as md5-hash in your .aMule/amule.conf.&lt;/p&gt;
+&lt;p&gt;Here is how you create one:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;echo -n password | md5sum | cut -d ' ' -f 1&lt;/code&gt;&lt;/p&gt;</content><category term="Linux"></category><category term="terminal"></category><category term="md5"></category><category term="amule"></category><category term="md5sum"></category></entry><entry><title>ettercap on openwrt (whiterussian 0.9)</title><link href="http://127.0.0.1:8000/ettercap-on-openwrt-whiterussian-09.html" rel="alternate"></link><published>2007-05-16T00:00:00+02:00</published><updated>2007-05-16T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-05-16:/ettercap-on-openwrt-whiterussian-09.html</id><summary type="html">&lt;p&gt;No wonder its called whiterussian&lt;/p&gt;</summary><content type="html">&lt;p&gt;Tried to install ettercap on a Linksys WRT54GL, but the version in the repository misses some dependencies.&lt;/p&gt;
+&lt;p&gt;You have to install zlib and libpthread. Also the libncurses package misses some libraries, thats why i downloaded it from &lt;a href="http://openwrt.vcp-springe.de/experimental/ettercap/" title="libncurses with missing libraries" target="_blank"&gt;here&lt;/a&gt; and installed it with ipkg install libncurses_5.2-8_mipsel.ipk&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="openwrt"></category><category term="linksys"></category><category term="ettercap"></category></entry><entry><title>Howto rebind keys in weechat</title><link href="http://127.0.0.1:8000/howto-rebind-keys-in-weechat.html" rel="alternate"></link><published>2007-05-05T00:00:00+02:00</published><updated>2007-05-05T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-05-05:/howto-rebind-keys-in-weechat.html</id><summary type="html">&lt;p&gt;weechat r00l3z&lt;/p&gt;</summary><content type="html">&lt;p&gt;I found it difficult to grab allways to the F6 and F7 keys to switch buffers, so i remaped them to ctrl-P and ctrl-N. Here is how:&lt;/p&gt;
+&lt;p&gt;/key ctrl-N /buffer +1&lt;/p&gt;
+&lt;p&gt;/key ctrl-P /buffer -1&lt;/p&gt;
+&lt;p&gt;Because my Alt-K key is mapped in dwm to switch windows, i get keycodes in weechat witch /key call grab_key, and press then the key i need the code for.&lt;/p&gt;
+&lt;p&gt;dont forget to /save.&lt;/p&gt;</content><category term="Linux"></category><category term="irc"></category><category term="terminal"></category><category term="weechat"></category><category term="rebind"></category><category term="keys"></category></entry><entry><title>tar don't needs -z and -j anymore! (Well since 2004)</title><link href="http://127.0.0.1:8000/tar-dont-needs-z-and-j-anymore-well-since-2004.html" rel="alternate"></link><published>2007-05-05T00:00:00+02:00</published><updated>2007-05-05T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-05-05:/tar-dont-needs-z-and-j-anymore-well-since-2004.html</id><summary type="html">&lt;p&gt;all the balast of the tar command&lt;/p&gt;</summary><content type="html">&lt;p&gt;I am a little bit disappointed, today i found out that you don't have to specify the -z or -j parameter to tar, man, how much time i spent to choose the right parameter and it was that easy the whole time :)&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="tar"></category><category term="bzip2"></category><category term="gzip"></category></entry><entry><title>Howto use scp</title><link href="http://127.0.0.1:8000/howto-use-scp.html" rel="alternate"></link><published>2007-05-04T00:00:00+02:00</published><updated>2007-05-04T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-05-04:/howto-use-scp.html</id><summary type="html">&lt;p&gt;Not one times, not two times, but always I forget&lt;/p&gt;</summary><content type="html">&lt;p&gt;Forgetful as i am here a simple reminder how to use scp:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;scp /some/file root@192.168.1.1:newnameoffile&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;or simpy:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;scp /some/file root@192.168.1.1:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;to copy the file under the same name.&lt;/p&gt;
+&lt;p&gt;Want to copy a whole directory ?&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;scp -r some/dir root@192.168.1.1:&lt;/code&gt;&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="scp"></category></entry><entry><title>Hints to start Processes in Background (zsh) and logging out</title><link href="http://127.0.0.1:8000/hints-to-start-processes-in-background-zsh-and-logging-out.html" rel="alternate"></link><published>2007-04-30T00:00:00+02:00</published><updated>2007-04-30T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-04-30:/hints-to-start-processes-in-background-zsh-and-logging-out.html</id><summary type="html">&lt;p&gt;nohupidihup&lt;/p&gt;</summary><content type="html">&lt;p&gt;Start the process with nohup:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;nohup someprocess&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;When it is allready started, type disown. (alias disown="kill -CONT %1; disown" or alias disown="bg; disown" to not to have to kill or bg manualy)&lt;/p&gt;
+&lt;p&gt;Start the process with &amp;amp;! which automatically disowns the process.&lt;/p&gt;
+&lt;p&gt;Start the program in the background, either with&lt;/p&gt;
+&lt;p&gt;program &amp;amp;  or ^Z bg, then type kill -9 $$ (this one closes also the actual shell).&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="zsh"></category><category term="jobs"></category><category term="background"></category><category term="logout"></category></entry><entry><title>Sorting Directories On Size, Human Readable</title><link href="http://127.0.0.1:8000/sorting-directories-on-size-human-readable.html" rel="alternate"></link><published>2007-04-28T00:00:00+02:00</published><updated>2007-04-28T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-04-28:/sorting-directories-on-size-human-readable.html</id><summary type="html">&lt;p&gt;Linux madness&lt;/p&gt;</summary><content type="html">&lt;p&gt;So far i have this:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;du -h --max-depth=1 | grep '[0-9]K' | sort -n ; du -h --max-depth=1 | grep '[0-9]M' | sort -n | du -h --max-depth=1 | grep '[0-9]G' | sort -n&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To include regular files in this sorting just use du -ah instead...&lt;/p&gt;
+&lt;p&gt;Edit: A far better version as pointed by &lt;a href="http://deice.daug.net/" target="_blank"&gt;deice&lt;/a&gt; is:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;
+du -s * | sort -n | cut -f 2- | while read a; do du -hs $a; done
+&lt;/code&gt;&lt;/pre&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="grep"></category><category term="directories"></category><category term="du"></category><category term="sort"></category><category term="human-readable"></category></entry><entry><title>Forcing udma5 on laptop (Acer Aspire 1692 wlmi)</title><link href="http://127.0.0.1:8000/forcing-udma5-on-laptop-acer-aspire-1692-wlmi.html" rel="alternate"></link><published>2007-03-11T00:00:00+01:00</published><updated>2007-03-11T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-03-11:/forcing-udma5-on-laptop-acer-aspire-1692-wlmi.html</id><summary type="html">&lt;p&gt;without 80 wire ribbon cable and parallel ATA (P-ATA) interface&lt;/p&gt;</summary><content type="html">&lt;p class="snap_preview"&gt;For some time past i bought a hitachi
+travelstar 7k100 and to my surprise i could not set udma5 with hdparm,
+the kernel restricted the settings to udma2 because it could not find a
+80 wire ribbon cable. as i am not willing to solder one in my notebook,
+i added  the kernelparameter ide0=ata66 to my grub.conf and now i can
+change to udma5 with hdparm. hopefully this parameter will stay for
+long time as its allready depreciated and i don’t know if it will be
+replaced by something else.
+&lt;p class="snap_preview"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class="postfeedback"&gt;&amp;nbsp;&lt;/p&gt;</content><category term="Linux"></category><category term="hardware"></category><category term="linux"></category><category term="udma2"></category><category term="udma5"></category><category term="ata"></category><category term="ide"></category><category term="laptop"></category><category term="hdparm"></category></entry><entry><title>Changing the timestamp of some files in a directory</title><link href="http://127.0.0.1:8000/changing-the-timestamp-of-some-files-in-a-directory.html" rel="alternate"></link><published>2007-03-10T00:00:00+01:00</published><updated>2007-03-10T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-03-10:/changing-the-timestamp-of-some-files-in-a-directory.html</id><summary type="html">&lt;p&gt;do you remember the touch command?&lt;/p&gt;</summary><content type="html">&lt;p&gt;Lets assume i want to change the timestamp of all pdf-files in a directory to now, this is the way to go (zsh):&lt;br /&gt;&lt;br /&gt;for file in *.pdf; touch ${file}&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="shell"></category><category term="zsh"></category><category term="touch"></category></entry><entry><title>Search for a file with specific content</title><link href="http://127.0.0.1:8000/search-for-a-file-with-specific-content.html" rel="alternate"></link><published>2007-03-08T00:00:00+01:00</published><updated>2007-03-08T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-03-08:/search-for-a-file-with-specific-content.html</id><summary type="html">&lt;p&gt;the search never ends&lt;/p&gt;</summary><content type="html">&lt;p&gt;Found a site which describes this quite good (german):&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.linuxfocus.org/Deutsch/September1998/article64.html"&gt;http://www.linuxfocus.org/Deutsch/September1998/article64.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lets do some comparison and search the whole root directory for the string "PAGER":&lt;/p&gt;
+&lt;p&gt;Lazy as i am i first started with the shortest possibility:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;grep "PAGER" &lt;code&gt;find / -type f -print&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Does not find anything for me, zsh gives me an error "argument list too long"&lt;/p&gt;
+&lt;p&gt;Here some explanation why this is so:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://michael-prokop.at/blog/2007/02/26/argument-list-too-long/"&gt;http://michael-prokop.at/blog/2007/02/26/argument-list-too-long/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;getconf ARG_MAX shows us the limit of 131072 characters allowed passing the command-line at once.,&lt;/p&gt;
+&lt;p&gt;So lets try something else, this time using xargs, which breaks the command down below 131072 characters:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;find / -type f -print | xargs grep "PAGER"&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Little bit better now, but, when i come across files with spaces in the filename i get problems, so lets try it again:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;find / -type f -print0 | xargs -0 grep "PAGER"&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;ok, this finally works. Somewhere someone shouted out that the parameters -print0 and -0 are not posix compliant, so for you purists out there another working solution:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;find / -type f -exec grep "PAGER" /dev/null {} \;&lt;/em&gt;&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="find"></category><category term="grep"></category><category term="content"></category><category term="file"></category></entry><entry><title>Search gentoo portage-trees with eix for multiple words</title><link href="http://127.0.0.1:8000/search-gentoo-portage-trees-with-eix-for-multiple-words.html" rel="alternate"></link><published>2007-03-03T00:00:00+01:00</published><updated>2007-03-03T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-03-03:/search-gentoo-portage-trees-with-eix-for-multiple-words.html</id><summary type="html">&lt;p&gt;regex are words is a language&lt;/p&gt;</summary><content type="html">&lt;p&gt;Edit:&lt;/p&gt;
+&lt;p&gt;You can, now ?, use multiple arguments of -S to achieve the same result so:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; eix -S 'cd' -S 'writ' &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;works the same.
+Thanks goes to Emil Beinroth for this hint.&lt;/p&gt;
+&lt;p&gt;All i wanted to do, was to search gentoo's package descriptions for two words, quite after or nearby. How could i know that this proved to be so hard :)&lt;/p&gt;
+&lt;p&gt;After long research i found on a site a regexp doing  more or less that what i wanted:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.regular-expressions.info/near.html" title="Regular Expressions" target="_blank"&gt;http://www.regular-expressions.info/near.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Of course it malfunctioned, so i tried to adapt it to eix.&lt;/p&gt;
+&lt;p&gt;Here my results so far, help and improvement suggestions appreciated :):&lt;/p&gt;
+&lt;p&gt;So when i try for example to search for the words 'cd' and 'writing' i type:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;eix -S 'cd(\W&lt;em&gt;\w&lt;/em&gt;){9}writing|writing(\W&lt;em&gt;\w&lt;/em&gt;){9}cd'&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Spoken:&lt;/p&gt;
+&lt;p&gt;find the word 'cd', followed by some non-alphanumerics (or not), followed by some alphanumerics (or not) and repeat this alphanumerics - non-aphanumerics thingie for my sake 9 times before you search for the word 'writing' (so this match finds only to a maximum of 8 words between 'cd' and 'writing'). Then reverse the two words and do the same sh...&lt;/p&gt;
+&lt;p&gt;Then try this same with 'write' or 'writ', there are at least 6 applications which don't have the word 'burn' in their descriptions, it could be that easy :)&lt;/p&gt;
+&lt;p&gt;at least i have united k3b and xcdroast in one search result, so that all was not for nothing :)&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="word"></category><category term="description"></category><category term="regex"></category><category term="regexp"></category><category term="gentoo"></category><category term="eix"></category></entry><entry><title>exclude directories from find</title><link href="http://127.0.0.1:8000/exclude-directories-from-find.html" rel="alternate"></link><published>2007-01-28T00:00:00+01:00</published><updated>2007-01-28T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-01-28:/exclude-directories-from-find.html</id><summary type="html">&lt;p&gt;not everything wants to be found&lt;/p&gt;</summary><content type="html">&lt;p&gt;To exclude dirs from the find command:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;find / -path &lt;span class="s1"&gt;&amp;#39;/some/dir&amp;#39;&lt;/span&gt; -prune -o -name &lt;span class="s1"&gt;&amp;#39;*.txt&amp;#39;&lt;/span&gt; -ls
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="find"></category><category term="exclude"></category><category term="dirs"></category><category term="directories"></category></entry><entry><title>securing apache</title><link href="http://127.0.0.1:8000/securing-apache.html" rel="alternate"></link><published>2007-01-26T00:00:00+01:00</published><updated>2007-01-26T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2007-01-26:/securing-apache.html</id><summary type="html">&lt;p&gt;everything has to be rewritten, I said everything&lt;/p&gt;</summary><content type="html">&lt;p&gt;Try to summarize some settings to secure apache:&lt;/p&gt;
+&lt;p&gt;*) Disable TRACE:&lt;/p&gt;
+&lt;p&gt;&lt;span class="body"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^TRACE
+RewriteRule .* - [F]&lt;/pre&gt;
+&lt;p&gt;mod_rewrite is needed, also has to be done in the
+&amp;lt;VirtualHost www.example.com&amp;gt; section.&lt;/p&gt;</content><category term="Linux"></category><category term="apache"></category><category term="linux"></category><category term="security"></category></entry><entry><title>Moving Files containing a specific string</title><link href="http://127.0.0.1:8000/moving-files-containing-a-specific-string.html" rel="alternate"></link><published>2006-12-25T00:00:00+01:00</published><updated>2006-12-25T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-12-25:/moving-files-containing-a-specific-string.html</id><summary type="html">&lt;p&gt;sometimes commands are longer than the content itself&lt;/p&gt;</summary><content type="html">&lt;p&gt;So far i found this solution to move files from current directory to a given one:&lt;br&gt;
+&lt;code&gt;find . -type f -iname '*string*' -exec mv {} /dir \;&lt;/code&gt;    &lt;br&gt;
+If someone knows something shorter, please let me know.  &lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="find"></category><category term="mv"></category><category term="move"></category></entry><entry><title>Administer logfiles</title><link href="http://127.0.0.1:8000/administer-logfiles.html" rel="alternate"></link><published>2006-11-22T00:00:00+01:00</published><updated>2006-11-22T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-11-22:/administer-logfiles.html</id><summary type="html">&lt;p&gt;a very short selection, line spacing for dramatization&lt;/p&gt;</summary><content type="html">&lt;p&gt;I search for a solution to administer logfiles, so far my candidates:&lt;/p&gt;
+&lt;p&gt;swatch&lt;/p&gt;
+&lt;p&gt;logsurfer&lt;/p&gt;
+&lt;p&gt;logwatch&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category></entry><entry><title>Filter configfiles from comments</title><link href="http://127.0.0.1:8000/filter-configfiles-from-comments.html" rel="alternate"></link><published>2006-11-17T00:00:00+01:00</published><updated>2006-11-17T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-11-17:/filter-configfiles-from-comments.html</id><summary type="html">&lt;p&gt;no code, just comments&lt;/p&gt;</summary><content type="html">&lt;p&gt;Somtimes you only want to see configuration in a config-file, to filter out every blank line and every comment line a simple:&lt;/p&gt;
+&lt;pre&gt;
+
+egrep -v '^$|^#' something.conf
+  |    |  | | '-&amp;gt; a  mesh at the beginning of line
+  |    |  | '-&amp;gt; or
+  |    |  '-&amp;gt; from start to end ... nothing -&amp;gt; blank line
+  |    '-&amp;gt; do not show ... containing
+  '-&amp;gt; to match against regular expressions&lt;/pre&gt;
+&lt;p&gt;will do the work.&lt;/p&gt;
+&lt;p&gt;Edit:&lt;/p&gt;
+&lt;p&gt;Found another way:&lt;/p&gt;
+&lt;p&gt;grep ^[^#]&lt;/p&gt;
+&lt;p&gt;Also filters comments and blank lines (but no spaces and tabs).&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="egrep"></category><category term="filter"></category><category term="comments"></category></entry><entry><title>weechat: disable infobar</title><link href="http://127.0.0.1:8000/weechat-disable-infobar.html" rel="alternate"></link><published>2006-11-10T00:00:00+01:00</published><updated>2006-11-10T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-11-10:/weechat-disable-infobar.html</id><summary type="html">&lt;p&gt;I need more space&lt;/p&gt;</summary><content type="html">&lt;p&gt;I use weechat inside screen alot, therefore its difficult to monitor it with ^A M because the clock in the infobar changes every second :)&lt;br&gt;
+Because i have a infobar in wmii allready i disabled the one in weechat like this:  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/set look_infobar = off&lt;/code&gt;&lt;/p&gt;</content><category term="Linux"></category><category term="code"></category><category term="irc"></category><category term="infobar"></category><category term="weechat"></category></entry><entry><title>weechat: automatic identify to NickServ and BitlBee</title><link href="http://127.0.0.1:8000/weechat-automatic-identify-to-nickserv-and-bitlbee.html" rel="alternate"></link><published>2006-11-07T00:00:00+01:00</published><updated>2006-11-07T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-11-07:/weechat-automatic-identify-to-nickserv-and-bitlbee.html</id><summary type="html">&lt;p&gt;less typing, so I can type more&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you don't want to type on each start of weechat to identify yourself, do:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;/set freenode.server_command="/msg NickServ identify PASSWORD"&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Replace freenode with the server you want to connect of course if needed.&lt;/p&gt;
+&lt;p&gt;For automaticaly connect to the BitlBee-Server you have to type:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;/set bitlbee.server_command="/msg &amp;amp;bitlbee identify PASSWORD"&lt;/em&gt;&lt;/p&gt;</content><category term="Linux"></category><category term="irc"></category><category term="linux"></category><category term="weechat"></category><category term="identify"></category><category term="automatic"></category></entry><entry><title>Screen with Midnightcommander</title><link href="http://127.0.0.1:8000/screen-with-midnightcommander.html" rel="alternate"></link><published>2006-11-06T00:00:00+01:00</published><updated>2006-11-06T00:00:00+01:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-11-06:/screen-with-midnightcommander.html</id><summary type="html">&lt;p&gt;function keys, who needs them anyways&lt;/p&gt;</summary><content type="html">&lt;p&gt;When you have problems with the function keys with mc on a screen session, just use ESC 1-10, or ESC 9 Options/Learn Keys and adjust it there.&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="mc"></category><category term="screen"></category></entry><entry><title>GTD</title><link href="http://127.0.0.1:8000/gtd.html" rel="alternate"></link><published>2006-10-22T00:00:00+02:00</published><updated>2006-10-22T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-10-22:/gtd.html</id><summary type="html">&lt;p&gt;geting things not done by figuring out how to get them done&lt;/p&gt;</summary><content type="html">&lt;p&gt;Today i discovered some nice tools to construct a terminal-based GTD-System for me:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.roaringpenguin.com/penguin/openSourceProducts/remind" title="comand line reminder" target="_blank"&gt;remind&lt;/a&gt; and the textbased frontend &lt;a href="http://www.eecs.umich.edu/~pelzlpj/wyrd/" title="Frontend to remind" target="_blank"&gt;wyrd&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;have to look at wyrd closer to find out how to make it transparent.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.vimoutliner.org" title="Outliner for vim" target="_blank"&gt;&lt;strong&gt;VimOutliner:&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;emerge vimoutliner&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://bike-nomad.com/vim/vimoutliner.html" title="The Vim Outliner" target="_blank"&gt;&lt;strong&gt;TVO: The Vim Outliner:&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://footils.org/cms/show/59" title="Tagging scripts for mutt" target="_blank"&gt;GTD with mutt:&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://footils.org/cms/show/59" title="Tagging scripts for mutt" target="_blank"&gt;&lt;/a&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;a href="http://shared.snapgrid.com/index.html" title="gtd-wiki in one html-file" target="_blank"&gt;GTDTiddlyWiki:&lt;/a&gt;&lt;/strong&gt;
+Ok, this one is not consolebased but in some sense also minimal, came across this several times, but overlooked that this is a simple html-file which stores everything in it. save it to an usb-stick, access it somewere else, only a webbrowser with javascript is needed. And as i discovered this absolutely ingenious firefox plugin named &lt;a href="http://vimperator.mozdev.org/" title="vim-like firefox extension" target="_blank"&gt;vimperator&lt;/a&gt; (simply said, a plugin which makes praktikaly vim of your firefox) i can use it very fast and without a mouse. Same goes for all Google stuff like gmail or reader.google.com. it integrates very well with the keybordshortcuts from google, just press the I-Key if there are conflicts or escape them with C-v.&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="vim"></category><category term="outliner"></category><category term="remind"></category><category term="wyrd"></category><category term="gtd"></category></entry><entry><title>HowTo set the wallpaper in wmii</title><link href="http://127.0.0.1:8000/howto-set-the-wallpaper-in-wmii.html" rel="alternate"></link><published>2006-10-21T00:00:00+02:00</published><updated>2006-10-21T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-10-21:/howto-set-the-wallpaper-in-wmii.html</id><summary type="html">&lt;p&gt;pretty&lt;/p&gt;</summary><content type="html">&lt;p&gt;This took me a little bit, so i write it down.&lt;/p&gt;
+&lt;p&gt;In ~/.wmii-3.5/wmiirc, replace the following line:&lt;em&gt;          &lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;code&gt;xsetroot -solid '#0b1014'&lt;/code&gt;
+&lt;/em&gt;with a command to set the background image, such as&lt;em&gt;            &lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;code&gt;eval &lt;code&gt;cat $HOME/.fehbg&lt;/code&gt; &amp;amp;&lt;/code&gt;
+&lt;/em&gt;(requires &lt;a href="http://linuxbrit.co.uk/feh/"&gt; feh&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Now i don't have to bother anymore with the configfile,&lt;/p&gt;
+&lt;p&gt;feh --bg-center ~/path/to/image sets the backgroundimage&lt;/p&gt;
+&lt;p&gt;and after a reboot the last shown picture is set.&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="wmii"></category><category term="feh"></category><category term="background"></category><category term="image"></category><category term="wallpaper"></category></entry><entry><title>How to change default Soundcard under linux</title><link href="http://127.0.0.1:8000/how-to-change-default-soundcard-under-linux.html" rel="alternate"></link><published>2006-10-20T00:00:00+02:00</published><updated>2006-10-20T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-10-20:/how-to-change-default-soundcard-under-linux.html</id><summary type="html">&lt;p&gt;life without soundcards would be a mistake&lt;/p&gt;</summary><content type="html">&lt;p&gt;First i find out the name of the card:
+&lt;em&gt;cat /proc/asound/cards&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;gets me Audigy2.&lt;em&gt;
+&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Then i add this lines to my /etc/asound.conf&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+pcm.!default {
+  type hw
+  card Audigy2
+}
+  ctl.!default {
+  type hw
+  card Audigy2
+}&lt;/code&gt;&lt;/pre&gt;</content><category term="Linux"></category><category term="linux"></category><category term="alsa"></category><category term="default"></category><category term="soundcard"></category></entry><entry><title>Transparent Console-Programs For Linux I Use.</title><link href="http://127.0.0.1:8000/transparent-console-programs-for-linux-i-use.html" rel="alternate"></link><published>2006-10-18T00:00:00+02:00</published><updated>2006-10-18T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-10-18:/transparent-console-programs-for-linux-i-use.html</id><summary type="html">&lt;p&gt;my lifes work is invisible&lt;/p&gt;</summary><content type="html">&lt;p&gt;So far my favorite transparent consoleprograms are:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.ibiblio.org/mc/" title="midnight commander" target="_blank"&gt;&lt;b&gt;midnight commander:&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Just start it like this in a transparent terminal:&lt;/p&gt;
+&lt;p&gt;mc -b&lt;/p&gt;
+&lt;p&gt;Full credit goes to the ingenious &lt;a href="http://tamihania.wordpress.com/" title="tamihania" target="_blank"&gt;tami&lt;/a&gt;, she was kind enough to share this fabulous hint. Have a look at her site, she has also some very beautiful screenshots and more useful tips here: &lt;a href="http://tamilinux.wordpress.com/2007/02/16/fvwm-crystal-feat-patagonie/" title="tamihania" target="_blank"&gt;http://tamilinux.wordpress.com/2007/02/16/fvwm-crystal-feat-patagonie/&lt;/a&gt;
+&lt;strike&gt;&lt;/strike&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ninjam.com/" title="Ninjam" target="_blank"&gt;ninjam:&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;A realtime music collaboration software&lt;/p&gt;
+&lt;p&gt;edit cursesclient/cursesclient.cpp:&lt;/p&gt;
+&lt;p&gt;start_color();&lt;/p&gt;
+&lt;p&gt;use_default_colors();    &amp;lt;-- add this line after the existing start_color();&lt;/p&gt;
+&lt;p&gt;init_pair(1, COLOR_WHITE, COLOR_BLUE); // normal status lines&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.jdkoftinoff.com/main/Free_Projects/Drum_Synth_For_Linux/" title="Drum Synth for the console" target="_blank"&gt;jdkdrum:&lt;/a&gt; &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;A command-line drummachine, reads simple ascii-patterns from stdin. you can also start it in interactive mode.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.raggle.org/" title="Raggle " target="_blank"&gt;&lt;b&gt;raggle:&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A console RSS aggregator, written in &lt;a href="http://www.ruby-lang.org/"&gt;Ruby &lt;/a&gt;. Oh yes, did i mention the vi-like navigation ? Then i do it now :)&lt;/p&gt;
+&lt;p&gt;in your ~/.raggle/config.rb&lt;/p&gt;
+&lt;p&gt;do a %s/Ncurses::COLOR_BLACK/-1/g&lt;/p&gt;
+&lt;p&gt;well almost, i swapped one palettepair from the defaultconfig, and now its nearly perfect :)&lt;/p&gt;
+&lt;p&gt;I also set 'browser' to firefox (i know, elinks should be here :)) so change that to your liking in my &lt;a href="http://princ3.files.wordpress.com/2007/03/config.txt" target="_blank" id="file-link-50" title="Transparent Raggle"&gt;             config.rb&lt;/a&gt; (change &lt;em&gt;.txt to &lt;/em&gt;.rb)&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://opensource.hld.ca/trac.cgi/wiki/CurseTheWeather" title="CurseTheWeather" target="_blank"&gt;CurseTheWeather:&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;We all love weather, don't we :)&lt;/p&gt;
+&lt;p&gt;Edit CurseTheWeather-0.3/ctw:&lt;/p&gt;
+&lt;p&gt;curses.start_color()
+curses.use_default_colors() &amp;lt;-- Add this line, you almost know the trick :)
+curses.init_pair(1, curses.COLOR_WHITE, curses.COLOR_BLUE)&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://thekonst.net/centericq/" title="Multiprotocolmessenger" target="_blank"&gt;centericq:&lt;/a&gt; &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;i prefer bitlbee in cooperation with weechat now&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://elinks.or.cz/" title="Terminal Browser" target="_blank"&gt;&lt;b&gt;elinks:&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;console-based browser, you can compile it with spidermonkeysupport, a JavaScript C library,  so it is the only transparent textbrowser  i know which supports googlemail for example :)&lt;/p&gt;
+&lt;p&gt;You can assign  almost everything to any key. There is a special searchable keybinding manager to not get lost in  the sheer infinite capabilities in the art of keybinding. Of course i modeled mine after vim :) There is also an exmode available, you have to compile it with --enable-exmode as the gentoo-ebuild does not provide this  essential to survive feature, bugreport is underway :)&lt;/p&gt;
+&lt;p&gt;Some useful settings:&lt;/p&gt;
+&lt;p&gt;Document/Browsing/Forms/Confirm submission/0&lt;/p&gt;
+&lt;p&gt;Document/Browsing/Forms/Insert mode/0&lt;/p&gt;
+&lt;p&gt;Document/Browsing/Images/Display links to images w/o alt/0&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://software.schmorp.de/pkg/rxvt-unicode.html" title="Unicode Terminal" target="_blank"&gt;&lt;b&gt;rxvt-unicode: &lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;i start the daemon urxvtd and connect with the following command (i use wmii, transparency did not worked with the perl tabs to me and i dont really need tabs anymore thanks to the wounderful world of screen :)):&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;urxvtc -tr&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;See my hints for &lt;a href="http://princ3.wordpress.com/2006/10/01/unicode-terminal-with-tabs-support/" title="Tabs and clickable urls in rxvt-unicode" target="_blank"&gt;tabs and clickable links&lt;/a&gt;, but be warned, the tabs dont support transparency (wmii/dwm)...&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.afterstep.org/aterm.php" title="Terminal capable of Transparency" target="_blank"&gt;&lt;b&gt;aterm:&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;No Unicode, thats why i use rxvt-unicode, but this is for sure the the lightest terminal with transparency supported.&lt;/p&gt;
+&lt;p&gt;Just start like:&lt;/p&gt;
+&lt;p&gt;aterm -tr&lt;/p&gt;
+&lt;p&gt;Or you can add aterm*transparent:true to your ~/.Xdefaults&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://http://conky.sourceforge.net/" title="Systemmonitor" target="_blank"&gt;&lt;b&gt;conky:&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Systemmonitor, audacious and mpd support, hm maybe i switch to mpd then :)&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://htop.sourceforge.net/" title="Interactive Process Viewer" target="_blank"&gt;&lt;b&gt;htop:&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;interactive process viewer:&lt;/p&gt;
+&lt;p&gt;kill, nice, incremental search, strace and view processes as tree, show kernelthreads... you can setup meters as bar, text, graph or led, very impressive.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://gift.sourceforge.net/" title="p2p network" target="_blank"&gt;gift&lt;/a&gt;/&lt;a href="http://www.nongnu.org/giftcurs/" title="ncurses frontend to p2p" target="_blank"&gt;giFTcurs:&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;A OpenFT, Ares, FastTrack, Gnutella, Gnutella2 daemon/client&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://mldonkey.sourceforge.net/Main_Page" title="p2p client" target="_blank"&gt;mldonkey&lt;/a&gt;/&lt;a href="http://nc110.sourceforge.net/" title="network swiss army knife" target="_blank"&gt;netcat:&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;A eDonkey, BitTorrent, Gnutella, Gnutella2, FastTrack, OpenFT daemon. I use it with netcat (ok, mostly with the webinterface, but this is all about minimalistic transparency :)). Netcatlink to the original, of course you can also use telnet, netcat6, gnu-netcat, socat, cryptcat, nmap-ncat, sbd, pncat... go search for the client to your liking :)&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.museek-plus.org/" title="Soulseek Client" target="_blank"&gt;&lt;b&gt;museek+/mucous:&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Soulseekdaemon/client, just start in a transparent terminal. Mucous is ncurses-based and so far one of the most complex ncurses-programs i have seen. right-clickable context menues, chat-room-list, clickable tabs, but of course you can operate this fine peace of software only with your keyboard.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://sourceforge.net/projects/nanodc" title="Ncurses-client for DC++" target="_blank"&gt;&lt;span style="font-weight:bold;"&gt;nanodc:&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;an ncurses-based client to the DC++ network, it uses the  DC++ client core and is therefore fully compatible.&lt;/p&gt;
+&lt;p&gt;For gentoo users, its in the sunrise overlay&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://libtorrent.rakshasa.no" title="BitTorrent Client " target="_blank"&gt;&lt;b&gt;rtorrent:&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Enter, tabcomplete to your torrentfile, cursor up to select the torrent, ^S to start downloading, thats it :)&lt;/p&gt;
+&lt;p&gt;Check this excellent &lt;a href="http://kmandla.wordpress.com/2007/05/02/howto-use-rtorrent-like-a-pro/" title="rtorrent howto" target="_blank"&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.vim.org/" title="Console Text Editor " target="_blank"&gt;&lt;b&gt;vim:&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Well what can i write here, it's all about the keysteering, thats another goal of mine, to control my whole desktop vi-like. i already switch, move and resize windows like this (hail to &lt;a href="http://www.suckless.org/wiki/dwm" title="Dynamic Window Manager" target="_blank"&gt;dwm&lt;/a&gt;), scroll firefox hjkl-like &lt;strike&gt;with the &lt;a href="http://mozilla.dorando.at/" title="Rebind your Keys" target="_blank"&gt;keyconfig-plugin&lt;/a&gt; and this ingenious &lt;a href="http://www.calmar.ws/firefox/" title="Vi-like keybindings for firefox" target="_blank"&gt;keybindings&lt;/a&gt;&lt;/strike&gt; with &lt;a href="http://vimperator.mozdev.org/" title="vim-like firefox extension" target="_blank"&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p style="font-size:15px;"&gt;&lt;a href="http://vimperator.mozdev.org/" title="vim-like firefox extension" target="_blank"&gt;vimperator:&lt;/a&gt; you like vim, you like firefox ? then this is a must have.&lt;/p&gt;
+&lt;p&gt;I would wipe out midnight commander if the &lt;a href="http://vim.sourceforge.net/scripts/script.php?script_id=808" title="Total Comander like file exploring in vim" target="_blank"&gt;vimcomanderscript&lt;/a&gt; wouldn’t be so damn slow, and  &lt;a href="http://vifm.sourceforge.net/" title="File Navigator, vi-keybindings !" target="_blank"&gt;vifm&lt;/a&gt; does not have the comfort of mc and is also slower. I would almost die for vimlike keybindings in mc,  so when someone has an appropriate solution, please give it to me. I don't mind to press the functionkeys and controlkeys, but grapping to the cursorkeys is a very big workflowkiller as i have to move my hand from the standard-typing position. As i work almost on a laptop, even small error corrections with my thumb on my mousepad, like moving floating windows for example, are not as bad as reaching the f... cursorkeys because my elbows stay almost always at the same place, but only one grab to the cursors and i have to move my whole right shoulder, elbow, arm and also hold it in the air, so my right arm is blocked for this time and i cannot fluidly switch tasks. Another present from god would be a pdf-reader with vi-like keybindings... but hey, people can fly, so maybe one day this will be possible too :)&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://weechat.flashtux.org/" title="IRC-Client" target="_blank"&gt;weechat&lt;/a&gt;/&lt;a href="http://www.bitlbee.org/main.php/news.html" title="Multi-Protocol-Server/Client" target="_blank"&gt;bitlbee:&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;i use now bitlbee in favor of centericq:&lt;/p&gt;
+&lt;pre&gt;
+/server bitlbee im.bitlbee.org 6667 -auto -nicks Nick1 Nick2 Nick3
+register &amp;lt;passwd&amp;gt;
+account add msn &amp;lt;account&amp;gt; &amp;lt;passwd&amp;gt;
+account add oscar &amp;lt;account&amp;gt; &amp;lt;passwd&amp;gt; login.icq.com/login.oscar.aol.com
+account add yahoo &amp;lt;account&amp;gt; &amp;lt;passwd&amp;gt;
+account add jabber username@gmail.com &amp;lt;passwd&amp;gt; talk.google.com:5223:sslaccount on
+
+identify &amp;lt;passwd&amp;gt;
+set private false&lt;/pre&gt;
+&lt;p&gt;Now the explanation:
+First i tell weechat to autoconnect to bitlbee when starting weechat, you get redirected to your bitlbee channel.
+In this channel you register the nick you joined the bitlbee network (either Nick1, Nick2, or Nick3).
+Then you add your accounts, for icq/aol choose the appropriate server.
+Then you connect all accounts to bitlbee, after that the only thing you have to do when you start weechat is to type identify &amp;lt;passwd&amp;gt;.&lt;/p&gt;
+&lt;p&gt;With set private false you get all messages in the mainwindow, there type nick: to talk to somebody in your list.&lt;/p&gt;
+&lt;p&gt;Works like charm, serverside buddylists for all networks, no need to rename ID's to nicknames.
+For further information type help in your bitlbee channel,
+to clear the window type /cl.
+Have to find out howto connect  to the gadu gadu network, i guess i have to register to a jabber-server which has a gadu-gadu transport, but i don't know how for the moment.&lt;/p&gt;
+&lt;p&gt;some servers like testing.bitlbee.org have ssl-support through port 6668, just enter that port and type /set bitlbee.server_ssl = on&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://wiki.xmms2.xmms.se/index.php/Main_Page" title="Mp3 Player Daemon" target="_blank"&gt;&lt;b&gt;xmms2:&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Server/Client architecture, audioscrobbler/last.fm-plugin, written in ruby, is included.&lt;/p&gt;
+&lt;p&gt;millions of clients, but not one nice consoleclient :)&lt;/p&gt;
+&lt;p&gt;ok there is &lt;a href="http://sirius.cine7.net/nyello/" title="pseudoshell frontend for xmms2" target="_blank"&gt;nyello&lt;/a&gt;, as if i need another cli-client :) ok, have to be more tolerant here, lets see what the future shows.&lt;/p&gt;
+&lt;p&gt;So mpd and ncmpc move up closer and closer to me :) (If there would not be amarok, its grotoes slow but the comfort is capital and altough this is  chill, after a few hours of play it is not more.)&lt;/p&gt;
+&lt;p&gt;One big plus of xmms2: .cue cuesheet support which mpd does not have.&lt;/p&gt;
+&lt;p&gt;maybe some day i find out how to ged rid of the black background of x2cp&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.musicpd.org/" title="Music Player Daemon" target="_blank"&gt;mpd&lt;/a&gt;/&lt;a href="http://www.musicpd.org/ncmpc.shtml" title="ncurses client for mpd" target="_blank"&gt;ncmpc&lt;/a&gt;/&lt;a href="http://vidar.gimp.org/?page_id=50" title="Proxy for last.fm streams" target="_blank"&gt;lastfmproxy&lt;/a&gt;/&lt;a href="http://www.red-bean.com/~decklin/software/lastfmsubmitd/" title="scrobble with mpd" target="_blank"&gt;lastfmsubmitd&lt;/a&gt;:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;I think my search for an consolebased solution whith most of last.fm features is over:&lt;/p&gt;
+&lt;p&gt;layman -a mpd   &amp;lt;-- for lastfmsubmitd/lastmp (tried mpdscribble, but it doesn't scrobbled last.fm-streams for me complaining that the song is too short)&lt;/p&gt;
+&lt;p&gt;layman -a zugaina    &amp;lt;-- for lastfmproxy&lt;/p&gt;
+&lt;p&gt;So to have everything working you have to start all of this :&lt;/p&gt;
+&lt;p&gt;/etc/init.d/mpd start&lt;/p&gt;
+&lt;p&gt;/etc/init.d/lastfmproxy start&lt;/p&gt;
+&lt;p&gt;/etc/init.d/lastfmsubmitd start (in gentoo you have to do a chown lastfm /etc/lastfmsubmitd.conf)&lt;/p&gt;
+&lt;p&gt;/etc/init.d/lastmp&lt;/p&gt;
+&lt;p&gt;mpd --update-db updates your database&lt;/p&gt;
+&lt;p&gt;For playing streams in the m3u-format directly from the net i have this solution:&lt;/p&gt;
+&lt;p&gt;First create this script and make it executable (you need to emerge mpc for this to work):&lt;/p&gt;
+&lt;blockquote&gt; #!/bin/bash
+mpc clear
+cat $1 | mpc add
+mpc play&lt;/blockquote&gt;
+&lt;p&gt;Then associate your browser to open all .m3u endings with this script.&lt;/p&gt;
+&lt;p&gt;More useful hints about mpd you can find &lt;a href="http://pp.laemmy.net/MPD#titelanker10" title="mpd tips" target="_blank"&gt;here&lt;/a&gt; (German only). Btw: i tend to use the mpc-client bundled with mpd&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://rus.members.beeb.net/rexima.html" title="console mixer" target="_blank"&gt;rexima:&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;A simple Mixer for the console, cursesbased, most important: you can select channels with j+k and adjust volume with h+l :)&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://triq.net/obex" title="bluetooth transfer" target="_blank"&gt;obexftp:&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Transfer files from and to your cellphone via bluetooth&lt;/p&gt;
+&lt;p&gt;To receive files from your mobile simply start the server with:&lt;/p&gt;
+&lt;p&gt;obexftpd -c /tmp -b&lt;/p&gt;
+&lt;p&gt;Then add the OPUSH handler:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sdptool add --channel=10 OPUSH&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If for some reason you can't connect with your mobile, delete this directory:&lt;/p&gt;
+&lt;p&gt;rm -r /var/lib/bluetooth&lt;/p&gt;
+&lt;p&gt;Now send your files from the menu of your mobile and you receive them in your tmp-directory&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.roaringpenguin.com/penguin/open_source_remind.php" title="calendar for console" target="_blank"&gt;remind:&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;consolebased calendar, see  &lt;a href="http://princ3.wordpress.com/2006/10/22/gtd/" title="My GTD article" target="_blank"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.arrakis.es/~rggi3/youtube-dl/" title="youtube commandline download" target="_blank"&gt;youtube-dl:&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Well, not much to say here, download youtube videos from the command-line&lt;/p&gt;
+&lt;p&gt;emerge youtube-dl&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://archmage.sourceforge.net" title="view chm files" target="_blank"&gt;archmage:&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;with this little handy program you can view *.chm files, it replaced completely xchm for me.&lt;/p&gt;
+&lt;p&gt;archmage -p 1234 some/interestingtext.chm&lt;/p&gt;
+&lt;p&gt;now connect with a textbrowser to port 1234, for example:&lt;/p&gt;
+&lt;p&gt;elinks http://localhost:1234&lt;/p&gt;
+&lt;p&gt;and voila, you can read *.chm files at the console.&lt;/p&gt;
+&lt;p&gt;For you gentooers out there, there is an ebuild at &lt;a href="http://bugs.gentoo.org/show_bug.cgi?id=55892" title="archmage ebuild"&gt;bugs.gentoo.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://alioth.debian.org/projects/surfraw/" title="commandline  interface to WWW " target="_blank"&gt;surfraw:&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;search the web from the commandline, currently supports 72 searchengines, some examples:&lt;/p&gt;
+&lt;p&gt;sr leodict some_english_word_i_dont_understand&lt;/p&gt;
+&lt;p&gt;This opens  leo.org in elinks (you can of course specify your favourite browser) and translates the word for me into the german language. Of course you can  set your own language:&lt;/p&gt;
+&lt;p&gt;sr leodict -help&lt;/p&gt;
+&lt;p&gt;shows you all options for this! searchengine.&lt;/p&gt;
+&lt;p&gt;This is the best commandline-translating-solution i have, i made an alias leo="sr leodict" and mapped quiting elinks without confirmation to a lowercase q instead of the default uppercase one.&lt;/p&gt;
+&lt;p&gt;You can also search wikipedia, ebay, google, imdb, /. ...:&lt;/p&gt;
+&lt;p&gt;sr -elvi&lt;/p&gt;
+&lt;p&gt;shows you all available searchengines and webservices.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.linuxpowertop.org/" title="tool helping reduce powerconsuming software/settings" target="_blank"&gt;powertop:&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;reduce the consumption of power by following the suggestions for your computer&lt;/p&gt;</content><category term="Linux"></category><category term="irc"></category><category term="linux"></category><category term="myself"></category><category term="terminal"></category><category term="transparency"></category><category term="transparent"></category><category term="console"></category><category term="curses"></category></entry><entry><title>xmms2: Could not connect to xmms2d: xmms2d is not running.</title><link href="http://127.0.0.1:8000/xmms2-could-not-connect-to-xmms2d-xmms2d-is-not-running.html" rel="alternate"></link><published>2006-10-05T00:00:00+02:00</published><updated>2006-10-05T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-10-05:/xmms2-could-not-connect-to-xmms2d-xmms2d-is-not-running.html</id><summary type="html">&lt;p&gt;client running away from daemon&lt;/p&gt;</summary><content type="html">&lt;p&gt;I came around this error, it means that the daemon and the client don't run in the same directory.&lt;/p&gt;
+&lt;p&gt;&lt;font&gt;xmms2d -i unix:///tmp/apantutarinte&lt;/font&gt;
+&lt;font&gt;export XMMS_PATH=unix:///tmp/apantutarinte xmms2 list&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;helps alot.&lt;/p&gt;
+&lt;p&gt;Edit: this is no more necessary with DrGonzo release.&lt;/p&gt;</content><category term="Linux"></category><category term="audio"></category><category term="linux"></category><category term="xmms2"></category><category term="error"></category></entry><entry><title>Disable shift-backspace logout in XGL and enable AltGr</title><link href="http://127.0.0.1:8000/disable-shift-backspace-logout-in-xgl-and-enable-altgr.html" rel="alternate"></link><published>2006-10-04T00:00:00+02:00</published><updated>2006-10-04T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-10-04:/disable-shift-backspace-logout-in-xgl-and-enable-altgr.html</id><summary type="html">&lt;p&gt;so many fingers, so many keys&lt;/p&gt;</summary><content type="html">&lt;p&gt;It drove me mad that i logged &lt;font&gt;always&lt;/font&gt; out from &lt;font&gt;XGL&lt;/font&gt; after pressing &lt;font&gt;accidentally&lt;/font&gt; shift-backspace.&lt;/p&gt;
+&lt;p&gt;You have to type:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;xmodmap -e "keycode 22 = BackSpace BackSpace" &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;after your Window Manager started (that would be beryl  in my case).&lt;/p&gt;
+&lt;p&gt;And because my &lt;font&gt;AltGr&lt;/font&gt; key &lt;font&gt;didn't&lt;/font&gt; worked too i first looked at the &lt;font&gt;keycode&lt;/font&gt; with &lt;font&gt;xev&lt;/font&gt; which was 113.&lt;/p&gt;
+&lt;p&gt;Then a little &lt;font&gt;lookup&lt;/font&gt; how the key is occupied:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;xmodmap -pk&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And &lt;font&gt;finally&lt;/font&gt; to make the key work again:
+&lt;font&gt;
+&lt;code&gt;xmodmap -e 'keycode 113 = Mode_switch'&lt;/code&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;And because i am a lazy person and dont want to type that over and over again to load it on startup i put both in my ~/.Xmodmap file:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;echo 'keycode 22 = BackSpace BackSpace' &amp;gt;&amp;gt; ~/.Xmodmap&lt;/code&gt;
+&lt;code&gt;echo 'keycode 113 = Mode_switch' &amp;gt;&amp;gt; ~/.Xmodmap&lt;/code&gt;&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="XGL"></category><category term="altgr"></category><category term="logout"></category></entry><entry><title>Adding users to new groups</title><link href="http://127.0.0.1:8000/adding-users-to-new-groups.html" rel="alternate"></link><published>2006-10-01T00:00:00+02:00</published><updated>2006-10-01T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-10-01:/adding-users-to-new-groups.html</id><summary type="html">&lt;p&gt;schizoalism, many users, many personalities&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you want to add an user to a new group without to specify the groups he is allready in, use:&lt;/p&gt;
+&lt;p&gt;gpasswd -a &amp;lt;user&amp;gt; &amp;lt;group&amp;gt;
+Then to make the group available without logging out from X, as user you can type:&lt;/p&gt;
+&lt;p&gt;newgrp &amp;lt;group&amp;gt;&lt;/p&gt;</content><category term="Linux"></category><category term="irc"></category></entry><entry><title>Unicode terminal with tabs support, clickable url's</title><link href="http://127.0.0.1:8000/unicode-terminal-with-tabs-support-clickable-urls.html" rel="alternate"></link><published>2006-10-01T00:00:00+02:00</published><updated>2006-10-01T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2006-10-01:/unicode-terminal-with-tabs-support-clickable-urls.html</id><summary type="html">&lt;p&gt;how many terminals are there? many&lt;/p&gt;</summary><content type="html">&lt;p&gt;After some time of search i found rxvt-unicode.
+With compiled in perl support you can start it with:&lt;/p&gt;
+&lt;p&gt;&lt;font&gt;urxvt -pe tabbed&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;or add:&lt;/p&gt;
+&lt;p&gt;&lt;font&gt;URxvt.perl-ext-common: default,tabbed &lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;to your ~/.Xdefaults&lt;/p&gt;
+&lt;p&gt;^shift cursor-left or cursor-right switches tabs,
+^shift cursor-down creates new tab.&lt;/p&gt;
+&lt;p&gt;To leftclick an url in the terminal and open it for example in elinks, add:&lt;/p&gt;
+&lt;p&gt;URxvt.urlLauncher: elinks
+URxvt.matcher.button: 1&lt;/p&gt;
+&lt;p&gt;Then start with urxvt -pe matcher&lt;/p&gt;
+&lt;p&gt;or simply add:&lt;/p&gt;
+&lt;p&gt;&lt;font&gt;URxvt.perl-ext-common: matcher&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;to your ~/.Xdefaults (you can combine it with the tabs entry).&lt;/p&gt;
+&lt;p&gt;More useful hints:&lt;/p&gt;
+&lt;p&gt;man urxvtperl&lt;/p&gt;</content><category term="Linux"></category><category term="linux"></category><category term="terminal"></category><category term="unicode"></category><category term="tabs"></category></entry></feed>

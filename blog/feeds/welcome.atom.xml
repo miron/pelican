@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>street.yoga - welcome</title><link href="http://127.0.0.1:8000/" rel="alternate"></link><link href="http://127.0.0.1:8000/feeds/welcome.atom.xml" rel="self"></link><id>http://127.0.0.1:8000/</id><updated>2015-10-15T00:00:00+02:00</updated><subtitle>Yoga &amp; Machines</subtitle><entry><title>welcome</title><link href="http://127.0.0.1:8000/welcome.html" rel="alternate"></link><published>2015-10-15T00:00:00+02:00</published><updated>2015-10-15T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2015-10-15:/welcome.html</id><content type="html">&lt;h2&gt;Street Yoga Grüßt Euch!&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Naturverbundenheit ist mir ein großes Anliegen, 
+deswegen ziehe ich es vor im Freien zu trainieren&lt;/em&gt;  &lt;/p&gt;
+&lt;p&gt;[gist:id=037f9a271324524e775e,file=Standing_Meditation.jpg]  &lt;/p&gt;</content><category term="welcome"></category></entry></feed>

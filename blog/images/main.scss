@@ -1,0 +1,47 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+
+// Add logo to masthead
+.site-title::before {
+	content: url("logo.png");
+}
+
+// Don't show gist footer
+.gist-meta { display:none; }
+
+//no borders for gist files
+body .gist .gist-file { border: none; }
+
+//post feed spacing
+.post-list  {
+	 margin-bottom: 0px; 
+}
+
+//no subscribe rss link
+.rss-subscribe {display:none;}
+
+//even spacing
+.footer-col {
+	float: left;
+	margin-bottom: 0px;
+	padding-left: 40px;
+}
+
+//removes bottom line from gist 
+body .gist .gist-data {
+	border-bottom:none; // 1px solid #ddd;
+}
+
+.site-nav {
+	line-height: 145px;.site-header {
+              /* border-top: 5px solid #424242; */
+              /* border-bottom: 1px solid #e8e8e8; */
+              height: 95px;
+              /* position: relative; */
+       }
+}
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>street.yoga - me</title><link href="http://127.0.0.1:8000/" rel="alternate"></link><link href="http://127.0.0.1:8000/feeds/me.atom.xml" rel="self"></link><id>http://127.0.0.1:8000/</id><updated>2015-10-15T00:00:00+02:00</updated><subtitle>Yoga &amp; Machines</subtitle><entry><title>me</title><link href="http://127.0.0.1:8000/me.html" rel="alternate"></link><published>2015-10-15T00:00:00+02:00</published><updated>2015-10-15T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2015-10-15:/me.html</id><summary type="html">&lt;div class="gist"&gt;
+    &lt;script src='https://gist.github.com/037f9a271324524e775e.js?file=Me.md'&gt;&lt;/script&gt;
+    &lt;noscript&gt;
+        &lt;pre&gt;&lt;code&gt;
+Weiterbildungen
+
+Yoga Synergy Teacher Training 200h Bali - Simon Borg-Olivier
+
+Balance, Strength &amp; Flexibility - Dylan Werner
+
+    A Deeper Understanding of Inversion
+    Power Through Breath
+
+Jump, Float &amp; Fly - Dylan Werner
+
+    Fly Strong Vinyasa
+    Jump, Float &amp; Fly
+    Arm Balance Evolution
+    Inverting the Backbend
+
+Yoga in der Sportwissenschaft - Christopher Konnerth
+
+Kriyas, yogische Reinigungstechniken - Horst Rinnerberger …&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="gist"&gt;
+    &lt;script src='https://gist.github.com/037f9a271324524e775e.js?file=Me.md'&gt;&lt;/script&gt;
+    &lt;noscript&gt;
+        &lt;pre&gt;&lt;code&gt;
+Weiterbildungen
+
+Yoga Synergy Teacher Training 200h Bali - Simon Borg-Olivier
+
+Balance, Strength &amp; Flexibility - Dylan Werner
+
+    A Deeper Understanding of Inversion
+    Power Through Breath
+
+Jump, Float &amp; Fly - Dylan Werner
+
+    Fly Strong Vinyasa
+    Jump, Float &amp; Fly
+    Arm Balance Evolution
+    Inverting the Backbend
+
+Yoga in der Sportwissenschaft - Christopher Konnerth
+
+Kriyas, yogische Reinigungstechniken - Horst Rinnerberger
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/noscript&gt;
+&lt;/div&gt;</content><category term="me"></category></entry></feed>

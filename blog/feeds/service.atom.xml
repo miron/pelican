@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>street.yoga - service</title><link href="http://127.0.0.1:8000/" rel="alternate"></link><link href="http://127.0.0.1:8000/feeds/service.atom.xml" rel="self"></link><id>http://127.0.0.1:8000/</id><updated>2015-10-15T00:00:00+02:00</updated><subtitle>Yoga &amp; Machines</subtitle><entry><title>service</title><link href="http://127.0.0.1:8000/service.html" rel="alternate"></link><published>2015-10-15T00:00:00+02:00</published><updated>2015-10-15T00:00:00+02:00</updated><author><name>streetyogi</name></author><id>tag:127.0.0.1,2015-10-15:/service.html</id><content type="html">&lt;div class="gist"&gt;
+    &lt;script src='https://gist.github.com/037f9a271324524e775e.js?file=Service.md'&gt;&lt;/script&gt;
+    &lt;noscript&gt;
+        &lt;pre&gt;&lt;code&gt;## Privatstunden  
+__Trainingseinheit__ €9  
+je nach Fertigkeit zwischen 20 Minuten und einigen Stunden.  
+Geräte wie z.B. Therabänder zum Aufwärmen der Schultern, Widerstandsbänder, Yogablöcke und Yogamatten können bei Bedarf 
+zur Verfügung gestellt werden und sind im Preis inkludiert.  
+## Small Group Trainings
+__Auf Anfrage__
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/noscript&gt;
+&lt;/div&gt;</content><category term="service"></category></entry></feed>
