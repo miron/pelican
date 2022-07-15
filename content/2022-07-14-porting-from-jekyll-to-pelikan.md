@@ -1,5 +1,5 @@
 Title: From Jekyl to Pelican 
-Date: 2022-06-24
+Date: 2022-07-14
 Category: Python
 Tags: ssg 
 Slug: byebye-ruby-hello-python 
