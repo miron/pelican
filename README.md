@@ -11,7 +11,7 @@ PYTHON_VERSION: 3.8
 
 ### Build localy: 
 
-pelican content -s pelicanconf.py -t Flex\;   
+pelican content -s pelicanconf.py -t Flex;   
 pelican --listen
 
 ### Cloudfare DNS settings
