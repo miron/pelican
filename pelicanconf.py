@@ -1,14 +1,12 @@
 from datetime import datetime
 
-AUTHOR = "streetyogi"
+AUTHOR = "baby"
 SITEURL = "https://beata.street.yoga"
 # SITEURL = "http://127.0.0.1:8000"
-SITENAME = "street.yoga"
-SITETITLE = "street.yoga"
-SITESUBTITLE = "Yoga & Machines"
-SITEDESCRIPTION = """Learn about yoga, or just spinal movements, so much needed for people living a sedentary lifestyle
-Lerne Yoga oder natürliche Wirbelsäulenbewegungen, die unverzichtbar sind als ausgleich zu unserer sitzenden Lebensweise
-"""
+SITENAME = "beata.street.yoga"
+SITETITLE = "beata"
+SITESUBTITLE = "Cupcakes & Yoga"
+SITEDESCRIPTION = """Treat your body with Cupcakes and Yoga"""
 SITELOGO = '/images/logo_quadrat.png'
 FAVICON = '/images/favicon.ico'
 BROWSER_COLOR = "#333333"
@@ -25,8 +23,6 @@ TIMEZONE = "Europe/Vienna"
 DISABLE_URL_HASH = True
 
 # PLUGIN_PATHS = ['pelican-plugins']
-
-PLUGINS = ['pelican_gist']
 
 # JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
@@ -48,21 +44,11 @@ AUTHOR_FEED_RSS = None
 USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
 HOME_HIDE_TAGS = True
-LINKS = (
-        ('me', '/me.html'),
-        ('about', '/about.html'),
-        ('welcome', '/welcome.html'),
-        ('service', '/service.html'),
-        ('downloads', '/downloads.html'),
-        ('streetyoga.capital', 'https://streetyoga.github.io/atapi/'),
-        ('imprint', 'https://firmen.wko.at/streetyoga-eu/wien/?firmaid=59c376c3-30b3-495c-a0ee-e48267328364')
-)
+LINKS = ()
 
 SOCIAL = (
-    ("envelope", 'mailto:miron@street.yoga'),
-    ("github", "https://github.com/miron"),
-    ("instagram", "https://instagram.com/street.yogi"),
-    ("linkedin", "https://www.linkedin.com/in/streetyogi")
+    ("envelope", 'mailto:beata@street.yoga'),
+    ("instagram", "https://instagram.com/baby_pole"),
 )
 
 MENUITEMS = (
@@ -80,7 +66,7 @@ CC_LICENSE = {
 }
 
 COPYRIGHT_YEAR = datetime.now().year
-DEFAULT_PAGINATION = 3
+DEFAULT_PAGINATION = 10
 
 DISQUS_SITENAME = "flex-pelican"
 ADD_THIS_ID = "ra-62d18ff205e38df4"

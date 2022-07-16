@@ -2,7 +2,7 @@ Title: Ziele setzen
 Date: 2017-05-29 19:51:12
 Category: Fitness 
 Tags: entrepreneur, calisthenics 
-Slug: Eine Vision ist von Nöten 
+Slug: eine-vision-ist-von-nöten 
 Author: streetyogi
 Summary: Setz dir kleine Ziele und nimm dir ein paar Minuten Zeit am Tag 
 
