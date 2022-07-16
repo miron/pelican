@@ -17,7 +17,7 @@ THEME_COLOR = 'dark'
 
 ROBOTS = "index, follow"
 
-THEME = "../"
+THEME = "Flex"
 PATH = "content"
 OUTPUT_PATH = "blog/"
 TIMEZONE = "Europe/Vienna"
