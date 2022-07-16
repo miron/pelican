@@ -1,17 +1,17 @@
-### Deployed to netlify.com
+### Deployed to pages.dev	
 
-Check it out at [street.yoga](https://www.street.yoga)  
+Check it out at [beata.street.yoga](https://beata.street.yoga)  
 
 Settings:
 
-Build command: pelican -t Flex  
-Publish directory: blog  
-PYTHON_VERSION: 3.8  
+Build command: pelican content
+Build output directory: /blog  
+Environment variables PYTHON_VERSION 3.7
 
 
 ### Build localy: 
 
-pelican content -s pelicanconf.py -t Flex;   
+pelican content -s pelicanconf.py;   
 pelican --listen
 
 ### Cloudfare DNS settings
@@ -19,20 +19,11 @@ pelican --listen
 
 | Type          | Name          | Content               |
 |:------------- |:--------------|:----------------------|
-| A             | street.yoga   | 75.2.60.5             |
-| CNAME         | www           | streetyoga.netlify.app|
+| CNAME         | beata         | beata.pages.dev        |
 
 
 
-### Themes
-
-Flex <-- Favorite  
-Nuja  
-pelican-b-side  
-pelican-cait  
-taman  
-
-
-	
+### Theme
+Flex
 	
 
