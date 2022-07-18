@@ -10,15 +10,15 @@ I can't help myself, but I feel pretty comfortable with generator expressions an
 
 Take this examples:
 
-Calculate the future value of your savings account:
-Today 100$
-Year after 10$
-Year after 20$
-Year after 50$
-Year after 30$
-Year after 25$
+Calculate the future value of your savings account:  
+Today 100$  
+Year after 10$  
+Year after 20$  
+Year after 50$    
+Year after 30$  
+Year after 25$  
 
-Whats the value after 5 years with an interest rate of 3% p.a.?
+Whats the value after 5 years with an interest rate of 3% p.a.?  
 
     :::python
     cf = [100, 10, 20, 50, 30, 25]
@@ -29,13 +29,13 @@ Whats the value after 5 years with an interest rate of 3% p.a.?
     # Or without n
     sum(cf[-i-1] * f**i for i in range(6))
   
-Another example:
-Payout plan:
-50$ Year one
-60$ Year two
-70$ Year three
-80$ Year four
-100$ Year five
+Another example:  
+Payout plan:  
+50$ Year one  
+60$ Year two  
+70$ Year three  
+80$ Year four  
+100$ Year five  
 
 Calculate and print funding amount to pay with an interest rate of 4%
 
