@@ -20,13 +20,14 @@ Year after 25$
 
 Whats the value after 5 years with an interest rate of 3% p.a.?
 
-  :::python
-  cf = [100, 10, 20, 50, 30, 25]
-  n = range(6)[::-1]
-  f = 1.03
-  sum(cf[i] * f**n[i] for i in n)
-  # Or without n
-  sum(cf[-i-1] * f**i for i in range(6))
+    :::python
+    cf = [100, 10, 20, 50, 30, 25]
+    n = range(6)[::-1]
+    f = 1.03
+    sum(cf[i] * f**n[i] for i in n)
+    
+    # Or without n
+    sum(cf[-i-1] * f**i for i in range(6))
   
 Another example:
 Payout plan:
@@ -38,8 +39,8 @@ Payout plan:
 
 Calculate and print funding amount to pay with an interest rate of 4%
 
-  :::python
-  cf = [50, 60, 70, 80, 100]  
-  f = 1.04  
-  PV = [print(cf[i]/ f**(i+1)) for i in range(5)]  
+    :::python
+    cf = [50, 60, 70, 80, 100]  
+    f = 1.04  
+    PV = [print(cf[i]/ f**(i+1)) for i in range(5)]  
   
