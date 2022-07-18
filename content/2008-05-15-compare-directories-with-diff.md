@@ -7,7 +7,7 @@ Summary: So many files, deduplicate
 Its easier than i thought, just type:
 
     :::bash
-    diff -rq Dir1 Dir2</code>
+    diff -rq Dir1 Dir2
 
 -r stands for rekursive
 
