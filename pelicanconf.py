@@ -49,11 +49,6 @@ USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
 HOME_HIDE_TAGS = True
 LINKS = (
-        ('me', '/me.html'),
-        ('about', '/about.html'),
-        ('welcome', '/welcome.html'),
-        ('service', '/service.html'),
-        ('downloads', '/downloads.html'),
         ('streetyoga.capital', 'https://streetyoga.github.io/atapi/'),
         ('imprint', 'https://firmen.wko.at/streetyoga-eu/wien/?firmaid=59c376c3-30b3-495c-a0ee-e48267328364')
 )
