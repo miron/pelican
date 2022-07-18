@@ -7,4 +7,6 @@ Summary: Welcome of the site
 _Naturverbundenheit ist mir ein großes Anliegen, 
 deswegen ziehe ich es vor im Freien zu trainieren_
 
-[gist:id=037f9a271324524e775e,file=Standing_Meditation.jpg]
+
+![Standing Meditation]({static}/images/Standing_Meditation.jpg)
+
