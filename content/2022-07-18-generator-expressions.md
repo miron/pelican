@@ -30,6 +30,7 @@ Whats the value after 5 years with an interest rate of 3% p.a.?
     sum(cf[-i-1] * f**i for i in range(6))
   
 Another example:  
+
 Payout plan:  
 50$ Year one  
 60$ Year two  
@@ -37,7 +38,7 @@ Payout plan:
 80$ Year four  
 100$ Year five  
 
-Calculate and print funding amount to pay with an interest rate of 4%
+Calculate and print funding amount to pay today with an interest rate of 4%
 
     :::python
     cf = [50, 60, 70, 80, 100]  
