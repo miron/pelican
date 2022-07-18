@@ -42,5 +42,5 @@ Calculate and print funding amount to pay with an interest rate of 4%
     :::python
     cf = [50, 60, 70, 80, 100]  
     f = 1.04  
-    PV = [print(cf[i]/ f**(i+1)) for i in range(5)]  
+    PV = [print(cf[i] / f**(i+1)) for i in range(5)]  
   
