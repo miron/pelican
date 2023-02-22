@@ -81,7 +81,12 @@ DEFAULT_PAGINATION = 3
 DISQUS_SITENAME = "street-yoga"
 ADD_THIS_ID = "ra-62d18ff205e38df4"
 
-STATIC_PATHS = ["images"]
+STATIC_PATHS = ["images", ".well-known"]
+
+EXTRA_PATH_METADATA = {
+    '.well-known/nostr.json': {'path': '.well-known/nostr.json'},
+}
+
 
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
