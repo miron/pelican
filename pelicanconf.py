@@ -49,7 +49,7 @@ USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
 HOME_HIDE_TAGS = True
 LINKS = (
-        ('streetyoga.capital', 'https://streetyoga.github.io/atapi/'),
+        ('project portfolio', 'https://streetyoga.github.io/atapi/'),
         ('imprint', 'https://firmen.wko.at/streetyoga-eu/wien/?firmaid=59c376c3-30b3-495c-a0ee-e48267328364'),
         ('vegan cooking', 'https://hive.blog/@street.yoga')
 )
